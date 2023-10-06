@@ -1,4 +1,4 @@
-# **sena-base-2021 v6.2.1**
+# **Conectividad de las redes en las organizaciones**
 
 ## **Enlace GitHubPages**
 

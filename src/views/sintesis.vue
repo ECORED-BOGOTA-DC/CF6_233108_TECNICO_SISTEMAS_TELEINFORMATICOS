@@ -2,12 +2,12 @@
 .curso-main-container.pb-3
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p.mb-5 A continuación, se muestra un mapa conceptual con los elementos más importantes desarrollados en este componente.
+    p.mb-5(data-aos="fade-right") La implementación de una red de datos en una organización es esencial para garantizar su óptimo funcionamiento y eficiencia en la era digital. Esta red, utilizada para identificar la conectividad de los sistemas, detectar fallos, facilitar las redes de acceso y gestionar datos, se conforma mediante la interconexión de dispositivos y sistemas tecnológicos. Al crear una infraestructura robusta y segura, la organización logra establecer una base sólida que permite una comunicación fluida y confiable, así como un manejo eficiente de la información vital para la toma de decisiones estratégicas. A continuación, veamos al respecto un mapa que resume esto:
 
-    .row.justify-content-center
+    .row.justify-content-center(data-aos="zoom-in-up")
       .col-lg-10.mb-5
         figure
-          img(src="@/assets/curso/temas/sintesis.svg", alt="alt")
+          img(src="@/assets/curso/sintesis.svg", alt="alt")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono
