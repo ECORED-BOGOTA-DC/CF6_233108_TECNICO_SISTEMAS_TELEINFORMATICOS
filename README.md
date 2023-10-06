@@ -2,7 +2,7 @@
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/](https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/)
+[https://ecored-bogota-dc.github.io/CF6_233108_TECNICO_SISTEMAS_TELEINFORMATICOS/#/](https://ecored-bogota-dc.github.io/CF6_233108_TECNICO_SISTEMAS_TELEINFORMATICOS/#/)
 
 #
 
