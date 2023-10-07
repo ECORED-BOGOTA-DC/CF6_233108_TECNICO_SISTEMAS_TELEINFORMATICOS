@@ -86,4 +86,6 @@ export default {
     margin-top: 0px !important
 .cajon.color-acento-botones:before
   background-color: #EFD198 !important
+.cajon.color-acento-contenido:before
+  background-color: #4ADBD1 !important
 </style>
