@@ -90,7 +90,7 @@
     .mt-5(style="position:relative;")
       figure.d-none.d-md-block
         img(src="@/assets/curso/tema2/10.svg" style="max-width:170px;max-height:190px;display:inline;position:absolute;right:-105px;top:50%;")
-      .bloque-texto-g.color-secundario.bloque_1_1.p-4(data-aos="flip-up" style="background-color:transparent;")
+      .bloque-texto-g.color-secundario.bloque_2_1.p-4(data-aos="flip-up" style="background-color:transparent;")
         .bloque-texto-g__img(
           :style="{'background-image': `url(${require('@/assets/curso/tema2/9.png')})`}"
         )
@@ -171,4 +171,6 @@ export default {
   border-top: 20px solid transparent
   border-bottom: 20px solid transparent
   border-right: 20px solid #12263F
+.bloque_2_1 .bloque-texto-g__img
+   background-position: 16%
 </style>
