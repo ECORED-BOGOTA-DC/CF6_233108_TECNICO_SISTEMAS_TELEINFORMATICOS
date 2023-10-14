@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 2
-      h1 Componentes de red
+      h1 Detección de fallas en la operación de la red
     
     .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5(data-aos="flip-up" style="background-color:#12263F;")
       .bloque-texto-g__img(
@@ -71,7 +71,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/tema2/7.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 Intercambiar componentes y reinstalar el software suele ser lo siguiente que hay que intentar. Con los componentes de repuesto, esto a menudo puede resolver los problemas inmediatamente. Incluso sin repuestos, cambiar los componentes para ver si el problema sigue al equipo puede ser una primera prueba sencilla. Reinstalar el software puede ser mucho más problemático. A menudo puede dar lugar a errores de configuración que empeoren los problemas. La versión antigua e instalada del software puede hacer imposible una instalación nueva y limpia. Pero si la instalación es sencilla o se sabe exactamente cómo configurar el software, puede ser una solución relativamente rápida.
+        p.mb-0 Intercambiar componentes y reinstalar el #[em software] suele ser lo siguiente que hay que intentar. Con los componentes de repuesto, esto a menudo puede resolver los problemas inmediatamente. Incluso sin repuestos, cambiar los componentes para ver si el problema sigue al equipo puede ser una primera prueba sencilla. Reinstalar el #[em software] puede ser mucho más problemático. A menudo puede dar lugar a errores de configuración que empeoren los problemas. La versión antigua e instalada del #[em software] puede hacer imposible una instalación nueva y limpia. Pero si la instalación es sencilla o se sabe exactamente cómo configurar el #[em software], puede ser una solución relativamente rápida.
     
     p.mt-5(data-aos="fade-right") Aunque estos enfoques suelen funcionar, no pueden ser considerados como solución de problemas. Agotadas las soluciones rápidas, es hora de entender el problema, si es posible. Los problemas que no se entienden no suelen solucionarse, sólo se posponen.  Las siguientes son algunas recomendaciones de aproximación al análisis de fallas: 
 

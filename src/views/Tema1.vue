@@ -12,7 +12,7 @@
         img(src="@/assets/curso/tema1/2.png")
       .col-lg-10.m-auto(data-aos="zoom-in-up")
         .p-4.cont_gradiente_1(style="box-shadow:0px 0px 10px rgba(0,0,0,.2);background: linear-gradient(0deg, rgba(222,222,222,1) 0%, rgba(255,255,255,1) 50%, rgba(222,222,222,1) 100%);margin-top:-120px;border-radius:15px;")
-          p.mb-0 Al intentar ofrecer una visión general de una red computacional típica, se tendría una imagen como la que se presenta en la Figura 1, que incluye ejemplos de redes de área local (de dos tipos: LAN 1 y LAN 2), personal y amplia. Sin llegar a una descripción completa de los diferentes componentes que constituyen una red de área local, es importante señalar que la mayoría de las LAN incluyen el siguiente hardware:
+          p.mb-0 Al intentar ofrecer una visión general de una red computacional típica, se tendría una imagen como la que se presenta en la Figura 1, que incluye ejemplos de redes de área local (de dos tipos: LAN 1 y LAN 2), personal y amplia. Sin llegar a una descripción completa de los diferentes componentes que constituyen una red de área local, es importante señalar que la mayoría de las LAN incluyen el siguiente #[em hardware]:
       .col-xl-8.col-lg-10.mt-5.m-auto
         .p-2(style="background-color:#4ADBD1;border-radius:15px;" data-aos="fade-right")
           .p-3(style="background-color:#4ADBD1;border-radius:15px;border:2px #fff solid;")
@@ -20,13 +20,13 @@
     .col-xl-8.col-lg-10.mt-4.m-auto
       .p-2(style="background-color:#F0DCC0;border-radius:15px;" data-aos="fade-left")
         .p-3(style="background-color:#F0DCC0;border-radius:15px;border:2px #fff solid;")
-          p.mb-0 #[strong Servidores:] computadores que almacenan el software de red y los archivos compartidos o privados de los usuarios.
+          p.mb-0 #[strong Servidores:] computadores que almacenan el #[em software] de red y los archivos compartidos o privados de los usuarios.
       .p-2.mt-4(style="background-color:#5573C6;border-radius:15px;" data-aos="fade-right")
         .p-3(style="background-color:#5573C6;border-radius:15px;border:2px #fff solid;")
           p.mb-0.text-white #[strong Conmutadores:] puntos de recogida de los cables que interconectan los puestos de trabajo.
       .p-2.mt-4(style="background-color:#F4A338;border-radius:15px;" data-aos="fade-left")
         .p-3(style="background-color:#F4A338;border-radius:15px;border:2px #fff solid;")
-          p.mb-0 #[strong Routers:] dispositivos de conexión entre las redes de área local y las redes de área amplia.
+          p.mb-0 #[strong #[em Routers]:] dispositivos de conexión entre las redes de área local y las redes de área amplia.
     
     .col-xl-6.col-lg-8.mt-5.m-auto
       .titulo-sexto.color-acento-botones(data-aos="zoom-in-down")
@@ -59,8 +59,8 @@
         figure.col-7.col-md-6.col-lg-12.m-auto
           img(src="@/assets/curso/tema1/8.svg")
       .col-lg-8(data-aos="fade-left")
-        p Para ver cómo funcionan conjuntamente las redes de área local y las redes de área amplia, considere al Usuario A (en la esquina superior izquierda de la Figura 1, que desea recuperar una página web del servidor web mostrado en la esquina inferior derecha. Para ello, el computador del usuario A debe contar con el hardware y el software necesarios para comunicarse con la primera red de área amplia que encuentra, la WAN 1, el proveedor de servicios de Internet del usuario A. Suponiendo que el computador del usuario A esté conectado a esta red de área amplia a través de una línea telefónica DSL, el usuario A necesita algún tipo de módem. Además, si esta red de área amplia forma parte de Internet, el computador del usuario A necesita un software que hable de Internet: TCP/IP (#[em Transmission Control Protocol/Internet Protocol]). 
-        p.mt-4 Obsérvese que no existe una conexión directa entre la WAN 1, donde reside el usuario A, y la LAN 2, donde reside el servidor web. Para asegurar que la solicitud de la página web del usuario A llegue a su destinatario (el servidor web), el software del usuario A adjunta la información de la dirección apropiada que la WAN 1 utiliza para dirigir la solicitud del usuario Al router que conecta la WAN 1 con la LAN 1. Una vez que la solicitud está en la LAN 1, el dispositivo tipo #[em switch] que conecta la LAN 1 y la LAN 2 utiliza la información de dirección para pasar la solicitud a la LAN 2. La información de dirección adicional entonces dirige la solicitud de la página web del usuario A al servidor web, cuyo software acepta la solicitud.
+        p Para ver cómo funcionan conjuntamente las redes de área local y las redes de área amplia, considere al Usuario A (en la esquina superior izquierda de la Figura 1), que desea recuperar una página web del servidor web mostrado en la esquina inferior derecha. Para ello, el computador del usuario A debe contar con el #[em hardware] y el #[em software] necesarios para comunicarse con la primera red de área amplia que encuentra, la WAN 1, el proveedor de servicios de Internet del usuario A. Suponiendo que el computador del usuario A esté conectado a esta red de área amplia a través de una línea telefónica DSL, el usuario A necesita algún tipo de módem. Además, si esta red de área amplia forma parte de Internet, el computador del usuario A necesita un #[em software] que hable de Internet: TCP/IP (#[em Transmission Control Protocol/Internet Protocol]). 
+        p.mt-4 Obsérvese que no existe una conexión directa entre la WAN 1, donde reside el usuario A, y la LAN 2, donde reside el servidor web. Para asegurar que la solicitud de la página web del usuario A llegue a su destinatario (el servidor web), el #[em software] del usuario A adjunta la información de la dirección apropiada que la WAN 1 utiliza para dirigir la solicitud del usuario Al #[em router] que conecta la WAN 1 con la LAN 1. Una vez que la solicitud está en la LAN 1, el dispositivo tipo #[em switch] que conecta la LAN 1 y la LAN 2 utiliza la información de dirección para pasar la solicitud a la LAN 2. La información de dirección adicional entonces dirige la solicitud de la página web del usuario A al servidor web, cuyo #[em software] acepta la solicitud.
     
     .p-4.mt-4.cajon.color-acento-botones(style="background-color:#FFFAD8;" data-aos="zoom-in")
       p.mb-0 En condiciones normales de tráfico, este procedimiento puede durar sólo una fracción de segundo. Cuando se empieza a comprender todos los pasos que hay que dar y el gran número de transformaciones que debe sufrir una simple petición de página web, el hecho de que sólo se tarde una fracción de segundo en entregarla es sorprendente.
@@ -79,7 +79,7 @@
     
     .row.mt-5
       .col-lg-7.mb-4.mb-lg-0(data-aos="fade-right")
-        p La LAN es una herramienta excelente para proporcionar una puerta de entrada a otras redes, software y periféricos. En algunas LAN, el conjunto de datos que acompaña al software de aplicación reside en un computador central llamado servidor. Utilizando microcomputadores conectados a una LAN, los usuarios finales pueden solicitar y descargar el conjunto de datos, y luego ejecutar la aplicación en sus computadores. Si los usuarios desean imprimir documentos en una impresora de red de alta calidad, la LAN contiene el software de red necesario para dirigir sus solicitudes de impresión a la impresora adecuada. Si los usuarios desean acceder a su correo electrónico desde el servidor de correo electrónico corporativo, la red de área local proporciona una conexión rápida y estable entre las estaciones de trabajo de los usuarios y el servidor de correo electrónico.   Si un usuario desea acceder a Internet, la red de área local proporciona una puerta de enlace eficaz con el mundo exterior. La siguiente figura muestra un diagrama de este tipo de distribución de microcomputador a red de área local.
+        p La LAN es una herramienta excelente para proporcionar una puerta de entrada a otras redes, #[em software] y periféricos. En algunas LAN, el conjunto de datos que acompaña al #[em software] de aplicación reside en un computador central llamado servidor. Utilizando microcomputadores conectados a una LAN, los usuarios finales pueden solicitar y descargar el conjunto de datos, y luego ejecutar la aplicación en sus computadores. Si los usuarios desean imprimir documentos en una impresora de red de alta calidad, la LAN contiene el #[em software] de red necesario para dirigir sus solicitudes de impresión a la impresora adecuada. Si los usuarios desean acceder a su correo electrónico desde el servidor de correo electrónico corporativo, la red de área local proporciona una conexión rápida y estable entre las estaciones de trabajo de los usuarios y el servidor de correo electrónico.   Si un usuario desea acceder a Internet, la red de área local proporciona una puerta de enlace eficaz con el mundo exterior. La siguiente figura muestra un diagrama de este tipo de distribución de microcomputador a red de área local.
       .col-lg-5(data-aos="fade-left")
         figure.col-7.col-md-6.col-lg-12.m-auto
           img(src="@/assets/curso/tema1/10.png")
@@ -139,7 +139,7 @@
           img(src="@/assets/curso/tema1/14.png")
     
     .cajon.mt-5.p-4.color-acento-contenido(style="background-color:#E8FFFD;" data-aos="flip-up")
-      p.mb-0 Para comunicarse con Internet mediante una conexión telefónica, DSL o de módem por cable, el computador del usuario debe conectarse a otro computador que ya esté comunicando con Internet. La forma más fácil de establecer esta conexión es a través de los servicios de un proveedor de servicios de Internet (ISP). En este caso, el computador del usuario debe tener el software necesario para comunicarse con la red. Internet "habla" sólo TCP/IP, por lo que los usuarios deben utilizar un software que soporte los protocolos TCP e IP. Una vez que el computador del usuario habla TCP/IP, se puede establecer una conexión con Internet.  Ver figura a continuación que con un esquema típico de microcomputador a Internet.
+      p.mb-0 Para comunicarse con Internet mediante una conexión telefónica, DSL o de módem por cable, el computador del usuario debe conectarse a otro computador que ya esté comunicando con Internet. La forma más fácil de establecer esta conexión es a través de los servicios de un proveedor de servicios de Internet (ISP). En este caso, el computador del usuario debe tener el #[em software] necesario para comunicarse con la red. Internet "habla" sólo TCP/IP, por lo que los usuarios deben utilizar un #[em software] que soporte los protocolos TCP e IP. Una vez que el computador del usuario habla TCP/IP, se puede establecer una conexión con Internet.  Ver figura a continuación que con un esquema típico de microcomputador a Internet.
     
     .col-xl-6.col-lg-8.mt-5.m-auto
       .titulo-sexto.color-acento-botones(data-aos="zoom-in-down")
@@ -162,7 +162,7 @@
 
     .row
       .col-lg-8.mb-4.mb-lg-0(data-aos="fade-right" style="place-self:center;")
-        p Dado que la red de área local es un estándar en los entornos empresariales y académicos, no debería sorprender que muchas organizaciones necesiten los servicios de varias redes de área local y que sea necesario que estas LAN se comuniquen entre sí. Por ejemplo, una empresa puede querer que la red de área local que soporta su departamento de investigación comparta una costosa impresora láser en color con la red de área local de su departamento de marketing. Afortunadamente, es posible conectar dos redes de área local para que puedan compartir periféricos y software. Los dispositivos que suelen conectar dos o más redes de área local son el conmutador y el router.
+        p Dado que la red de área local es un estándar en los entornos empresariales y académicos, no debería sorprender que muchas organizaciones necesiten los servicios de varias redes de área local y que sea necesario que estas LAN se comuniquen entre sí. Por ejemplo, una empresa puede querer que la red de área local que soporta su departamento de investigación comparta una costosa impresora láser en color con la red de área local de su departamento de marketing. Afortunadamente, es posible conectar dos redes de área local para que puedan compartir periféricos y #[em software]. Los dispositivos que suelen conectar dos o más redes de área local son el conmutador y el #[em router].
         .p-4.mt-4.cajon.color-acento-botones(style="background-color:#FFFAD8;" data-aos="zoom-in")
           p.mb-0 En algunos casos, puede ser más importante evitar que los datos fluyan entre las redes de área local que permitir que los datos fluyan de una red a otra. Por ejemplo, algunas empresas tienen razones políticas para soportar múltiples redes: cada división puede querer que su propia red funcione como quiera. Además, puede haber razones de seguridad para limitar el flujo de tráfico entre redes; o permitir que los datos destinados a una red concreta atraviesen otras redes simplemente puede generar demasiado tráfico de red. Los dispositivos que conectan las redes de área local también pueden ayudar a gestionar este tipo de servicios. Por ejemplo, el conmutador puede filtrar el tráfico no destinado a la red vecina, minimizando así la cantidad total de flujo de tráfico. La siguiente figura muestra un ejemplo de dos LAN conectadas por un switch.
       .col-lg-4(data-aos="fade-left" style="place-self:center;")
@@ -193,7 +193,7 @@
         figure.col-7.col-md-6.col-lg-12.m-auto
           img(src="@/assets/curso/tema1/18.png")
       .col-lg-8(data-aos="fade-left")
-        p La red de área personal se creó a finales de los años 90 y es una de las formas más recientes de redes informáticas. Mediante transmisiones inalámbricas con dispositivos como los asistentes digitales personales (PDA), los computadores portátiles y los reproductores de música portátiles, una persona puede transferir voz, datos y música desde dispositivos portátiles a otros dispositivos como estaciones de trabajo con microcomputadores (Ver Figura 5). Asimismo, un usuario puede descargar datos desde una estación de trabajo a uno de estos dispositivos portátiles. Por ejemplo, un usuario puede utilizar una PDA para tomar notas durante una reunión. Una vez terminada la reunión, el usuario puede transmitir las notas a través de una conexión inalámbrica desde la PDA a su estación de trabajo. La estación de trabajo ejecuta entonces un procesador de textos para limpiar las notas, y las notas formateadas se cargan en una red de área local para su difusión corporativa. Otro ejemplo es la conexión de manos libres con Bluetooth que la gente utiliza para poder conversar con su celular sin tener que colocarlo en la oreja. También es muy común transferir fotos y vídeos digitales de las cámaras a los microcomputadores mediante señales inalámbricas de corto alcance.
+        p La red de área personal se creó a finales de los años 90 y es una de las formas más recientes de redes informáticas. Mediante transmisiones inalámbricas con dispositivos como los asistentes digitales personales (PDA), los computadores portátiles y los reproductores de música portátiles, una persona puede transferir voz, datos y música desde dispositivos portátiles a otros dispositivos como estaciones de trabajo con microcomputadores (Ver Figura 5). Asimismo, un usuario puede descargar datos desde una estación de trabajo a uno de estos dispositivos portátiles. Por ejemplo, un usuario puede utilizar una PDA para tomar notas durante una reunión. Una vez terminada la reunión, el usuario puede transmitir las notas a través de una conexión inalámbrica desde la PDA a su estación de trabajo. La estación de trabajo ejecuta entonces un procesador de textos para limpiar las notas, y las notas formateadas se cargan en una red de área local para su difusión corporativa. Otro ejemplo es la conexión de manos libres con #[em Bluetooth] que la gente utiliza para poder conversar con su celular sin tener que colocarlo en la oreja. También es muy común transferir fotos y vídeos digitales de las cámaras a los microcomputadores mediante señales inalámbricas de corto alcance.
 
     .cont_1_3.p-4.p-lg-5.mt-4
       .col-xl-6.col-lg-8.m-auto
@@ -227,7 +227,7 @@
     
     h4.mt-5.mb-4.p-3.pe-5.mb-0(data-aos="zoom-in" style="background-color:#4ADBD1;max-width:fit-content;border-radius:0px 25px 0px 0px;") Disposición de la red de área local a la red de área amplia
 
-    p(data-aos="fade-right") Si un usuario que trabaja en un microcomputador conectado a una red de área local desea acceder a Internet (una red de área amplia), la red de área local del usuario debe tener una conexión con Internet. Para conectar estas dos redes se utiliza un dispositivo llamado router, que convierte los datos de la red de área local en datos de la red de área amplia. También realiza funciones de seguridad y debe estar debidamente programado para aceptar o rechazar determinados tipos de paquetes de datos entrantes y salientes. La siguiente figura muestra una red de área local conectada a una red de área amplia a través de un router.
+    p(data-aos="fade-right") Si un usuario que trabaja en un microcomputador conectado a una red de área local desea acceder a Internet (una red de área amplia), la red de área local del usuario debe tener una conexión con Internet. Para conectar estas dos redes se utiliza un dispositivo llamado #[em router], que convierte los datos de la red de área local en datos de la red de área amplia. También realiza funciones de seguridad y debe estar debidamente programado para aceptar o rechazar determinados tipos de paquetes de datos entrantes y salientes. La siguiente figura muestra una red de área local conectada a una red de área amplia a través de un #[em router].
 
     .cont_1_3.p-4.p-lg-5.mt-4
       .col-xl-6.col-lg-8.m-auto
@@ -248,7 +248,7 @@
           :style="{'background-image': `url(${require('@/assets/curso/tema1/22.png')})`}"
         )
         .bloque-texto-g__texto.p-4(style="background-color:#F8F8F8;border-radius:30px 0px 30px;")
-          p.mb-0 Internet no es una red única, sino un conjunto de miles de redes. Para recorrer cualquier distancia a través de Internet, un paquete de datos pasará sin duda por múltiples redes de área amplia. Para conectar una red de área amplia con otra red de área amplia se necesitan dispositivos especiales que puedan enrutar el tráfico de datos de forma rápida y eficaz. Estos dispositivos son los routers de alta velocidad. Una vez que el paquete de datos entra en el router de alta velocidad, se extrae una dirección en la capa de red (la dirección IP), se toma una decisión de enrutamiento y el paquete de datos se envía al siguiente segmento de la red de área amplia. A medida que el paquete de datos viaja por Internet, un router tras otro toma una decisión de enrutamiento, moviendo los datos hacia su destino final. 
+          p.mb-0 Internet no es una red única, sino un conjunto de miles de redes. Para recorrer cualquier distancia a través de Internet, un paquete de datos pasará sin duda por múltiples redes de área amplia. Para conectar una red de área amplia con otra red de área amplia se necesitan dispositivos especiales que puedan enrutar el tráfico de datos de forma rápida y eficaz. Estos dispositivos son los #[em routers] de alta velocidad. Una vez que el paquete de datos entra en el #[em router] de alta velocidad, se extrae una dirección en la capa de red (la dirección IP), se toma una decisión de enrutamiento y el paquete de datos se envía al siguiente segmento de la red de área amplia. A medida que el paquete de datos viaja por Internet, un #[em router] tras otro toma una decisión de enrutamiento, moviendo los datos hacia su destino final. 
     
     h4.mt-5.mb-4.p-3.pe-5.mb-0(data-aos="zoom-in" style="background-color:#4ADBD1;max-width:fit-content;border-radius:0px 25px 0px 0px;")  Diseños de redes de sensores a área local
 
@@ -324,19 +324,19 @@
         .p-4.cont_gradiente_1(style="box-shadow:0px 0px 10px rgba(0,0,0,.2);background: linear-gradient(0deg, rgba(222,222,222,1) 0%, rgba(255,255,255,1) 50%, rgba(222,222,222,1) 100%);margin-top:-100px;border-radius:15px;")
           p.mb-0 A continuación, se presenta la descripción de algunos protocolos de transmisión de datos que se usan en las redes, con el objetivo de dar un concepto que permita la apropiación de soluciones a problemas que se puedan presentar en redes de comunicaciones.
     
-    h4.mt-5.mb-4.p-3.pe-5.mb-0(data-aos="zoom-in" style="background-color:#4ADBD1;max-width:fit-content;border-radius:0px 25px 0px 0px;") Bluetooth
+    h4.mt-5.mb-4.p-3.pe-5.mb-0(data-aos="zoom-in" style="background-color:#4ADBD1;max-width:fit-content;border-radius:0px 25px 0px 0px;") #[em Bluetooth]
 
     .row
       .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
         figure.col-7.col-md-6.col-lg-12.m-auto
           img(src="@/assets/curso/tema1/29.png")
       .col-lg-8(data-aos="fade-left")
-        p El protocolo Bluetooth, llamado así por el cruzado vikingo Harald Bluetooth, que unificó Dinamarca y Noruega en el siglo X, es una tecnología inalámbrica que utiliza radiofrecuencias de baja potencia y corto alcance para comunicarse entre dos o más dispositivos. En concreto, Bluetooth utiliza la banda ISM (Indus- trial, Scientific, Medical) de 2,45 GHz y suele limitarse a distancias de entre 10 cm y 10 metros (que corresponden a unas 4 pulgadas y 30 pies, respectivamente). 
+        p El protocolo #[em Bluetooth], llamado así por el cruzado vikingo Harald Bluetooth, que unificó Dinamarca y Noruega en el siglo X, es una tecnología inalámbrica que utiliza radiofrecuencias de baja potencia y corto alcance para comunicarse entre dos o más dispositivos. En concreto, #[em Bluetooth] utiliza la banda ISM (Indus- trial, Scientific, Medical) de 2,45 GHz y suele limitarse a distancias de entre 10 cm y 10 metros (que corresponden a unas 4 pulgadas y 30 pies, respectivamente). 
         .p-4.mt-4.cajon.color-acento-botones(style="background-color:#FFFAD8;" data-aos="zoom-in")
-          p.mb-0 A diferencia de los infrarrojos, Bluetooth es capaz de transmitir a través de objetos no metálicos. Así, un dispositivo que transmite señales Bluetooth puede llevarse en un bolsillo, un bolso o un maletín. Además, con Bluetooth es posible transferir datos a velocidades razonablemente altas. El primer estándar Bluetooth era capaz de transferir datos a una velocidad de aproximadamente 700 kbps. El segundo estándar aumentó la velocidad de datos a algo más de 2 Mbps.
+          p.mb-0 A diferencia de los infrarrojos, #[em Bluetooth] es capaz de transmitir a través de objetos no metálicos. Así, un dispositivo que transmite señales #[em Bluetooth] puede llevarse en un bolsillo, un bolso o un maletín. Además, con #[em Bluetooth] es posible transferir datos a velocidades razonablemente altas. El primer estándar #[em Bluetooth] era capaz de transferir datos a una velocidad de aproximadamente 700 kbps. El segundo estándar aumentó la velocidad de datos a algo más de 2 Mbps.
     
-    p.mt-5(data-aos="fade-right") Bluetooth también puede comunicar entre varios dispositivos. Por ejemplo, en un entorno de oficina con muchos computadores, impresoras, faxes y fotocopiadoras, con Bluetooth, cada dispositivo puede enviar señales a otros dispositivos o a un único punto, por ejemplo, para indicar instrucciones de servicio como "no hay papel" o "hay poco tóner". Una red pequeña como ésta, con ocho o menos dispositivos, se llama piconet. Se pueden interconectar varias piconets para formar una scatternet.
-    p.mt-4(data-aos="fade-left") El aspecto más interesante de Bluetooth es la lista de aplicaciones que se benefician de esta tecnología de transmisión de corto alcance. Entre estas aplicaciones se encuentran:
+    p.mt-5(data-aos="fade-right") #[em Bluetooth] también puede comunicar entre varios dispositivos. Por ejemplo, en un entorno de oficina con muchos computadores, impresoras, faxes y fotocopiadoras, con #[em Bluetooth], cada dispositivo puede enviar señales a otros dispositivos o a un único punto, por ejemplo, para indicar instrucciones de servicio como "no hay papel" o "hay poco tóner". Una red pequeña como ésta, con ocho o menos dispositivos, se llama piconet. Se pueden interconectar varias piconets para formar una scatternet.
+    p.mt-4(data-aos="fade-left") El aspecto más interesante de #[em Bluetooth] es la lista de aplicaciones que se benefician de esta tecnología de transmisión de corto alcance. Entre estas aplicaciones se encuentran:
 
     .row.mt-5
       .col-lg.mb-4.mb-lg-0.col-md-6
@@ -361,7 +361,7 @@
           p.mt-2.mb-0 Transmisiones inalámbricas entre un PDA y un automóvil, la casa o el lugar de trabajo.
     
     br
-    p.mt-5.fw-bold.text-center(data-aos="zoom-in") Para apreciar el poder potencial de la tecnología Bluetooth, considere los siguientes ejemplos más descriptivos: 
+    p.mt-5.fw-bold.text-center(data-aos="zoom-in") Para apreciar el poder potencial de la tecnología #[em Bluetooth], considere los siguientes ejemplos más descriptivos: 
 
     .cont_1_5
       SlyderF.mt-5(columnas="col-lg-6 col-xl-4")
@@ -391,7 +391,7 @@
         figure
           img(src="@/assets/curso/tema1/9.svg")
       .col(data-aos="fade-left" style="place-self:center;")
-        p.mb-0 A pesar de contar con un gran apoyo, el impacto de Bluetooth en el mercado ha sido relativamente lento. La tecnología Bluetooth actual sigue teniendo problemas para conseguir que varios dispositivos (más de dos) sincronicen los datos entre sí. La corta distancia de transmisión de 10 metros (30 pies) también es vista por muchos como un detrimento. Aunque es posible (en condiciones especiales) transmitir señales Bluetooth hasta 100 metros (328 pies), esto requerirá baterías más potentes para los dispositivos transmisores y podría aumentar el problema de las interferencias. No obstante, Bluetooth es una tecnología que sin duda hay que vigilar y comprender.
+        p.mb-0 A pesar de contar con un gran apoyo, el impacto de #[em Bluetooth] en el mercado ha sido relativamente lento. La tecnología #[em Bluetooth] actual sigue teniendo problemas para conseguir que varios dispositivos (más de dos) sincronicen los datos entre sí. La corta distancia de transmisión de 10 metros (30 pies) también es vista por muchos como un detrimento. Aunque es posible (en condiciones especiales) transmitir señales #[em Bluetooth] hasta 100 metros (328 pies), esto requerirá baterías más potentes para los dispositivos transmisores y podría aumentar el problema de las interferencias. No obstante, #[em Bluetooth] es una tecnología que sin duda hay que vigilar y comprender.
     
     h4.mt-5.mb-4.p-3.pe-5.mb-0(data-aos="zoom-in" style="background-color:#4ADBD1;max-width:fit-content;border-radius:0px 25px 0px 0px;") Redes de área local inalámbricas
 
@@ -442,7 +442,7 @@
               img(src='@/assets/curso/tema1/44.png')
           .col-md-6(style="place-self:center;")
             h5(style="color:#5573C6;") ZigBee
-            p Tecnología inalámbrica relativamente nueva respaldada por el estándar IEEE 802.15.4, diseñada para la transmisión de datos entre dispositivos más pequeños, a menudo integrados, que requieren bajas velocidades de transferencia (20-250 Kbps).  Funciona en la banda de radio ISM y requiere muy poco soporte de software y poca energía. Los dispositivos con ZigBee no necesitan comunicarse constantemente con otros dispositivos, cuando no transmite una señal a un receptor, el dispositivo puede ponerse en reposo.  
+            p Tecnología inalámbrica relativamente nueva respaldada por el estándar IEEE 802.15.4, diseñada para la transmisión de datos entre dispositivos más pequeños, a menudo integrados, que requieren bajas velocidades de transferencia (20-250 Kbps).  Funciona en la banda de radio ISM y requiere muy poco soporte de #[em software] y poca energía. Los dispositivos con ZigBee no necesitan comunicarse constantemente con otros dispositivos, cuando no transmite una señal a un receptor, el dispositivo puede ponerse en reposo.  
     
     h4.mt-5.mb-4.p-3.pe-5.mb-0(data-aos="zoom-in" style="background-color:#4ADBD1;max-width:fit-content;border-radius:0px 25px 0px 0px;") Medios de comunicación dirigidos: ejemplos
 
@@ -618,7 +618,7 @@
     
     p.mt-5(data-aos="fade-right") Cada estación terrestre se compone de dos piezas: una unidad interior y una unidad exterior. La unidad exterior consiste en la antena parabólica y suele montarse en el tejado del edificio. El tamaño de la antena parabólica depende de la velocidad de transmisión de datos que se utilice y de la cobertura del satélite que se necesite. La unidad exterior está conectada a la unidad interior a través de un único cable de interconexión. La unidad interior dispone de uno o varios puertos a los que se pueden conectar los equipos informáticos de la empresa.
     .p-4.mt-4.cajon.color-acento-botones(style="background-color:#FFFAD8;" data-aos="zoom-in")
-      p.mb-0 El mantenimiento y la asistencia de este servicio VSAT son proporcionados por la compañía de satélites las 24 horas del día, los 7 días de la semana, e incluyen la configuración de los equipos, los informes sobre el estado del sistema, la asignación del ancho de banda, la descarga de cualquier software necesario y el envío de personal de campo si es necesario.
+      p.mb-0 El mantenimiento y la asistencia de este servicio VSAT son proporcionados por la compañía de satélites las 24 horas del día, los 7 días de la semana, e incluyen la configuración de los equipos, los informes sobre el estado del sistema, la asignación del ancho de banda, la descarga de cualquier #[em software] necesario y el envío de personal de campo si es necesario.
     p.mt-4.fw-bold(data-aos="fade-left") DataMining Corporation ha decidido instalar el sistema de satélite VSAT. Para resumir, consideremos cada uno de los criterios de selección de medios aplicados a la solución VSAT:
     
     .mt-5(style="position:relative;")

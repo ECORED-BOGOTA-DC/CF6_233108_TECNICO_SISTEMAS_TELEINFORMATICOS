@@ -157,12 +157,12 @@ export default {
     {
       termino: 'AAA',
       significado:
-        ' Universal Serial Bus. Puerto de conexión serial de los computadores.',
+        'Universal Serial Bus. Puerto de conexión serial de los computadores.',
     },
     {
       termino: 'CMOS',
       significado:
-        ' Complementary Metal-Oxide-Semiconductor. Semiconductor complementario de óxido metálico.',
+        'Complementary Metal-Oxide-Semiconductor. Semiconductor complementario de óxido metálico.',
     },
     {
       termino: 'CPU',
@@ -175,16 +175,16 @@ export default {
     {
       termino: 'ENIAC',
       significado:
-        ' Electronic Numerical Integrator and Computer. Primer computador programable a gran escala.',
+        'Electronic Numerical Integrator and Computer. Primer computador programable a gran escala.',
     },
     {
       termino: 'GNU',
-      significado: ' General Public License. Licencia Pública General de GNU.',
+      significado: 'General Public License. Licencia Pública General de GNU.',
     },
     {
       termino: 'DVI',
       significado:
-        ' Digital Video Interface. Puerto de conexión de las pantallas de un computador.',
+        'Digital Video Interface. Puerto de conexión de las pantallas de un computador.',
     },
     {
       termino: 'LCD',
@@ -193,11 +193,11 @@ export default {
     {
       termino: 'HDMI',
       significado:
-        ' High-Definition Multimedia Interface. Puerto de conexión de las pantallas de un computador.',
+        'High-Definition Multimedia Interface. Puerto de conexión de las pantallas de un computador.',
     },
     {
       termino: 'ITIL',
-      significado: ' Information Technology Infrastructure Library',
+      significado: 'Information Technology Infrastructure Library',
     },
     {
       termino: 'ITSM',
@@ -218,7 +218,7 @@ export default {
     {
       termino: 'VGA',
       significado:
-        ' Video Graphics Array. Puerto de conexión de las pantallas de un computador.',
+        'Video Graphics Array. Puerto de conexión de las pantallas de un computador.',
     },
     {
       termino: 'USB',

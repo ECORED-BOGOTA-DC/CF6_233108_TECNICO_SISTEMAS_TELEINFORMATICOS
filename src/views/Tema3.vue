@@ -19,7 +19,7 @@
         figure.col-7.col-md-6.col-lg-12.m-auto
           img(src="@/assets/curso/tema3/2.png")
       .col-lg-8(data-aos="fade-left")
-        p #[strong(style="color:#5573C6;") ¿Qué ocurre cuando una red es más grande que un área metropolitana?] Una red que se expande más allá de un área metropolitana es una red de área amplia. Las redes de área amplia comparten algunas características con las redes de área local: Interconectan computadores, utilizan algún tipo de medio para la interconexión y soportan aplicaciones de red. Pero hay diferencias. Las redes de área local no realizan el enrutamiento. En su lugar, los conmutadores reenvían las tramas al destino local adecuado, mientras que los routers enrutan los paquetes de una red de área amplia a otra. Las redes de área amplia pueden interconectar un gran número de estaciones de trabajo (dispositivos), de manera que cualquier estación de trabajo puede transferir datos a cualquier otra estación de trabajo. Como su nombre indica, las redes de área amplia pueden cubrir grandes distancias geográficas, incluida toda la Tierra.
+        p #[strong(style="color:#5573C6;") ¿Qué ocurre cuando una red es más grande que un área metropolitana?] Una red que se expande más allá de un área metropolitana es una red de área amplia. Las redes de área amplia comparten algunas características con las redes de área local: Interconectan computadores, utilizan algún tipo de medio para la interconexión y soportan aplicaciones de red. Pero hay diferencias. Las redes de área local no realizan el enrutamiento. En su lugar, los conmutadores reenvían las tramas al destino local adecuado, mientras que los #[em routers] enrutan los paquetes de una red de área amplia a otra. Las redes de área amplia pueden interconectar un gran número de estaciones de trabajo (dispositivos), de manera que cualquier estación de trabajo puede transferir datos a cualquier otra estación de trabajo. Como su nombre indica, las redes de área amplia pueden cubrir grandes distancias geográficas, incluida toda la Tierra.
         .cajon.mt-4.p-4.color-acento-contenido(style="background-color:#E8FFFD;" data-aos="flip-up")
           p.mb-0 Debido a las diferencias entre las redes de área local y las redes de área metropolitana y de área amplia, estas dos últimas formas de red merecen su propia discusión. A continuación, un análisis de las redes de área metropolitana, para avanzar con terminología básica de las redes de área amplia. Se examinará las diferencias entre las redes de área amplia con conmutación de circuitos y con conmutación de paquetes. Y se ofrecerá una breve introducción al enrutamiento, ya que las redes de área amplia utilizan el enrutamiento para transferir datos.
     
@@ -47,24 +47,28 @@
         div #[strong Una segunda característica] que distingue a las MAN de las LAN (pero no necesariamente de las WAN) es que la mayoría de las MAN pueden recuperarse muy rápidamente de un fallo de enlace o de conmutador/enrutador. Las MAN están diseñadas con circuitos altamente redundantes para que, en caso de fallo de un componente, la red pueda redirigir rápidamente el tráfico fuera del componente que ha fallado. Esta capacidad de redireccionamiento en caso de fallo se denomina failover, y la velocidad a la que se realiza el failover es el tiempo de failover. Aunque no todas las MAN tienen tiempos de conmutación por error bajos, conseguirlos es sin duda el objetivo de cualquier empresa que ofrezca un servicio MAN.
       li.d-flex
         i.fas.fa-check-circle(style="color:#4ADBD1;")
-        div #[strong Una tercera característica] que distingue a muchas MAN de las LAN y las WAN es que algunas topologías MAN se basan en un anillo. La MAN en anillo es única porque es un anillo tanto lógica como físicamente. Así, no sólo se transmiten los datos en forma de anillo, sino que también los routers y switches de la red están interconectados en forma de anillo (Figura 14).
+        div #[strong Una tercera característica] que distingue a muchas MAN de las LAN y las WAN es que algunas topologías MAN se basan en un anillo. La MAN en anillo es única porque es un anillo tanto lógica como físicamente. Así, no sólo se transmiten los datos en forma de anillo, sino que también los #[em routers] y switches de la red están interconectados en forma de anillo (Figura 14).
     
-    .col-xl-6.col-lg-8.mt-5.m-auto
-      .titulo-sexto.color-acento-botones(data-aos="zoom-in-down")
-        h5 Figura 14.
-        span Anillo físico de fibra óptica
-    .col-xl-10.m-auto.mt-5
-      .row
-        .col-2.d-none.d-lg-block
-          figure(data-aos="fade-right")
-            img(src="@/assets/curso/tema1/3.svg" style="max-width:100px;")
-        .col
-          figure(data-aos="zoom-in-up")
-            img(src="@/assets/curso/tema3/6.svg")
-          figcaption.text-small.fw-normal.mt-4.text-center(style="color:#727997;background-color:transparent;") Nota. Tomada de #[em Data Communication and Computer Networks: A Business User's Approach], por J. West, 2022, Cengage Learning
-        .col-auto.d-none.d-lg-block(style="place-self:end;")
-          figure(data-aos="fade-left")
-            img(src="@/assets/curso/tema1/5.svg")
+          .col-xl-6.col-lg-8.mt-5.m-auto
+            .titulo-sexto.color-acento-botones(data-aos="zoom-in-down")
+              h5 Figura 14.
+              span Anillo físico de fibra óptica
+          .col-xl-10.m-auto.mt-5
+            .row
+              .col-2.d-none.d-lg-block
+                figure(data-aos="fade-right")
+                  img(src="@/assets/curso/tema1/3.svg" style="max-width:100px;")
+              .col
+                figure(data-aos="zoom-in-up")
+                  img(src="@/assets/curso/tema3/6.svg")
+                figcaption.text-small.fw-normal.mt-4.text-center(style="color:#727997;background-color:transparent;") Nota. Tomada de #[em Data Communication and Computer Networks: A Business User's Approach], por J. West, 2022, Cengage Learning
+              .col-auto.d-none.d-lg-block(style="place-self:end;")
+                figure(data-aos="fade-left")
+                  img(src="@/assets/curso/tema1/5.svg")
+    
+      li.d-flex(data-aos="fade-right")
+        i.fas.fa-check-circle(style="color:#4ADBD1;")
+        div #[strong Por último], una característica que está empezando a aparecer en las MAN, pero que no tienen actualmente ni las LAN ni las WAN, es la capacidad de un usuario de asignar dinámicamente más ancho de banda bajo demanda. Supongamos que usted trabaja para una empresa y tiene una conexión MAN entre su oficina corporativa y un proveedor de servicios de Internet. Usted prevé, quizás porque está a punto de presentar una nueva oferta de servicio al cliente, que la demanda en el enlace MAN crecerá sustancialmente en los próximos días. Por lo tanto, realiza una llamada telefónica -o, en algunos casos, accede a una página web- y solicita que se aumente el ancho de banda de su conexión MAN en una cantidad determinada. El proveedor de servicios MAN recibe su solicitud, aumenta inmediatamente su ancho de banda y le factura en consecuencia. Es posible que en el futuro todas las redes -locales, metropolitanas y de área amplia- dispongan de esta potente función. Por ahora, sólo la ofrecen algunos proveedores de servicios MAN.
     
     h4.mt-5.mb-4.p-3.pe-5.mb-0(data-aos="zoom-in" style="background-color:#4ADBD1;max-width:fit-content;border-radius:0px 25px 0px 0px;") SONET vs. Ethernet
 
