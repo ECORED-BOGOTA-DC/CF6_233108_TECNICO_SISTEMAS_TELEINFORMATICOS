@@ -7,7 +7,7 @@
     .row.justify-content-center(data-aos="zoom-in-up")
       .col-lg-10.mb-5
         figure
-          img(src="@/assets/curso/sintesis.svg", alt="alt")
+          img(src="@/assets/curso/sintesis.svg", alt="Imagen que resume a través de un mapa conceptual los temas abordados en este componente formativo, para este caso los temas desarrollados son:<br> Conformación de una red de datos en una organización, entre los que se encuentran la identificación de la conectividad de la red, las redes de acceso, la detección de fallas de la red y la gestión de datos, conocimientos necesarios para alcanzar el resultado de aprendizaje vinculado a este componente formativo.")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono

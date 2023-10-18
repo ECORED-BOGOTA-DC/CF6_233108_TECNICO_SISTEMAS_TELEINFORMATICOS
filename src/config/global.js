@@ -121,7 +121,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/prueba.pdf',
+        download: 'downloads/233108_CF06_DU.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -265,7 +265,8 @@ export default {
         {
           nombre: 'Joaquín Fernando Sánchez',
           cargo: 'Experto temático',
-          centro: 'Regional Norte de Santander',
+          centro:
+            'Regional Norte de Santander - Centro de la industria, la empresa y los servicios',
         },
         {
           nombre: 'Maribel Avellaneda Nieves',
@@ -287,13 +288,7 @@ export default {
         },
         {
           nombre: 'Alix Cecilia Chinchilla Rueda',
-          cargo: 'Asesor Metodológico',
-          centro:
-            'Regional Distrito Capital - Centro de gestión de Mercados, Logística y Tecnologías de la Información',
-        },
-        {
-          nombre: '',
-          cargo: '',
+          cargo: 'Asesoría metodológica y pedagógica',
           centro:
             'Regional Distrito Capital - Centro de gestión de Mercados, Logística y Tecnologías de la Información',
         },
@@ -303,8 +298,8 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: '',
-          cargo: 'Diseñador de Contenidos Digitales',
+          nombre: 'Eulises Orduz Amézquita',
+          cargo: 'Diseñador web',
           centro:
             'Regional Distrito Capital - Centro de gestión de Mercados, Logística y Tecnologías de la Información',
         },
@@ -315,19 +310,7 @@ export default {
             'Regional Distrito Capital - Centro de gestión de Mercados, Logística y Tecnologías de la Información',
         },
         {
-          nombre: '',
-          cargo: 'Animación y Producción audiovisual',
-          centro:
-            'Regional Distrito Capital - Centro de gestión de Mercados, Logística y Tecnologías de la Información',
-        },
-        {
-          nombre: '',
-          cargo: 'Animación y Producción audiovisual',
-          centro:
-            'Regional Distrito Capital - Centro de gestión de Mercados, Logística y Tecnologías de la Información',
-        },
-        {
-          nombre: '',
+          nombre: 'Laura Gisselle Murcia Pardo',
           cargo: 'Animación y Producción audiovisual',
           centro:
             'Regional Distrito Capital - Centro de gestión de Mercados, Logística y Tecnologías de la Información',
@@ -338,20 +321,21 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: '',
-          cargo: '',
+          nombre: 'Carolina Coca Salazar',
+          cargo: 'Evaluación de contenidos inclusivos y accesibles',
           centro:
             'Regional Distrito Capital - Centro de gestión de Mercados, Logística y Tecnologías de la Información',
         },
         {
-          nombre: '',
-          cargo: '',
+          nombre: 'Lina Marcela Pérez Manchego',
+          cargo: 'Validación de recursos educativos digitales',
           centro:
             'Regional Distrito Capital - Centro de gestión de Mercados, Logística y Tecnologías de la Información',
         },
         {
-          nombre: '',
-          cargo: '',
+          nombre: 'Leyson Fabian Castaño Pérez',
+          cargo:
+            'Validación de recursos educativos digitales y vinculación LMS',
           centro:
             'Regional Distrito Capital - Centro de gestión de Mercados, Logística y Tecnologías de la Información',
         },

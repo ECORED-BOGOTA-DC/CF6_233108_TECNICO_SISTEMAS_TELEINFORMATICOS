@@ -20,12 +20,12 @@
         .row.mt-4
           .col-auto.d-none.d-md-block(data-aos="fade-right" style="place-self:center;")
             figure
-              img(src="@/assets/curso/tema1/9.svg")
+              img(src="@/assets/curso/tema1/9.svg", alt='Imágen decorativa')
           .col(data-aos="fade-left" style="place-self:center;")
             p.mb-0 Puede parecer innecesario decirlo, pero hay que buscar primero las soluciones rápidas. A menudo, lo primero que se intenta es reiniciar el sistema. Muchos problemas pueden resolverse de este modo. Si el problema es realmente una casualidad, reiniciar el sistema puede resolver el problema, y es posible que no se vuelva a ver. 
       .col-lg-4(data-aos="fade-left")
         figure.m-auto.col-md-6.col-lg-12
-          img(src="@/assets/curso/tema2/2.png")
+          img(src="@/assets/curso/tema2/2.png", alt='Imágen decorativa')
     
     p.mt-5.fw-bold.text-center(data-aos="zoom-in") Es importante tener en cuenta los diferentes niveles en el restablecimiento de un sistema:
 
@@ -34,7 +34,7 @@
         .crd_hover_txt(data-aos='flip-up')
           .crd_hover_txt--img
             figure
-              img(src='@/assets/curso/tema2/3.png' alt="")
+              img(src='@/assets/curso/tema2/3.png', alt='Imágen decorativa')
           .crd_hover_txt--body(style="background-color:rgba(85,115,198,.96);")
             h5.mb-3.text-white.text-center Para el #[em.text-white software]
             p.mt-4.text-white.mb-0 Se puede simplemente reiniciar el programa, o enviar una señal al programa para que recargue su archivo de inicialización. Desde el punto de vista de los usuarios, este es el enfoque menos perturbador. 
@@ -42,7 +42,7 @@
         .crd_hover_txt(data-aos='flip-up')
           .crd_hover_txt--img
             figure
-              img(src='@/assets/curso/tema2/4.png' alt="")
+              img(src='@/assets/curso/tema2/4.png', alt='Imágen decorativa')
           .crd_hover_txt--body(style="background-color:rgba(74,219,209,.96);")
             h5.mb-3.text-center Reiniciar el sistema operativo
             p.mt-4.mb-0 Pero sin cortar la corriente, es decir, hacer un reinicio en caliente. 
@@ -50,7 +50,7 @@
         .crd_hover_txt(data-aos='flip-up')
           .crd_hover_txt--img
             figure
-              img(src='@/assets/curso/tema2/5.png' alt="")
+              img(src='@/assets/curso/tema2/5.png', alt='Imágen decorativa')
           .crd_hover_txt--body(style="background-color:rgba(85,115,198,.96);")
             h5.mb-3.text-white.text-center Reinicio en frío
             p.mt-4.text-white.mb-0 Se puede intentar un reinicio en frío, desconectando la alimentación.
@@ -58,7 +58,7 @@
     .row.mt-5
       .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
         figure.col-7.col-md-6.col-lg-12.m-auto
-          img(src="@/assets/curso/tema2/6.png")
+          img(src="@/assets/curso/tema2/6.png", alt='Imágen decorativa')
       .col-lg-8(data-aos="fade-left")
         p Sin embargo, hay que considerar algunos peligros al reiniciar un sistema. Por ejemplo, es posible hacer inadvertidamente cambios en un sistema para que no pueda reiniciarse. Si se identifica lo que se ha hecho a tiempo, se puede corregir el problema. Pero una vez apagado el sistema, puede ser demasiado tarde. Sin un disco de arranque de respaldo, se tendrá que reconstruir el sistema. Afortunadamente, estas son circunstancias poco frecuentes y suelen ocurrir sólo cuando se han realizado cambios importantes en un sistema.
         .cajon.mt-4.p-4.color-acento-contenido(style="background-color:#E8FFFD;" data-aos="flip-up")
@@ -83,13 +83,13 @@
           p.text-small(numero="3" titulo="Descomponer el problema") Por lo general, puede centrarse mejor si se divide el problema en partes. Esta técnica, aplicable a todo tipo de soluciones de problemas, es conocida con varios nombres: descomposición del problema, divide y vencerás, búsqueda binaria.
       .col-lg-4(data-aos="fade-right")
         figure.col-7.col-md-6.col-lg-12.m-auto
-          img(src="@/assets/curso/tema2/8.png")
+          img(src="@/assets/curso/tema2/8.png", alt='Imágen decorativa')
     
     h4.mt-5.mb-4.p-3.pe-5.mb-0(data-aos="zoom-in" style="background-color:#4ADBD1;max-width:fit-content;border-radius:0px 25px 0px 0px;") Fallos del sistema
 
     .mt-5(style="position:relative;")
       figure.d-none.d-md-block
-        img(src="@/assets/curso/tema2/10.svg" style="max-width:170px;max-height:190px;display:inline;position:absolute;right:-105px;top:50%;")
+        img(src="@/assets/curso/tema2/10.svg" style="max-width:170px;max-height:190px;display:inline;position:absolute;right:-105px;top:50%;", alt='Imágen decorativa')
       .bloque-texto-g.color-secundario.bloque_2_1.p-4(data-aos="flip-up" style="background-color:transparent;")
         .bloque-texto-g__img(
           :style="{'background-image': `url(${require('@/assets/curso/tema2/9.png')})`}"
@@ -100,7 +100,7 @@
       .row.mt-4
         .col-auto.d-none.d-md-block(data-aos="fade-right" style="place-self:center;")
           figure
-            img(src="@/assets/curso/tema1/9.svg")
+            img(src="@/assets/curso/tema1/9.svg", alt='Imágen decorativa')
         .col(data-aos="fade-left" style="place-self:center;")
           p.mb-0 Los fallos del sistema son más perniciosos en sistemas con un estrecho acoplamiento entre subsistemas y subsistemas que están vinculados de forma no lineal o no evidente. Depurar un fallo del sistema puede ser extremadamente difícil. Muchos de los enfoques más estándar simplemente no funcionan. La estrategia de descomponer el sistema en subsistemas se vuelve difícil, porque los síntomas desvían los esfuerzos. Además, en casos extremos, cada subsistema puede estar funcionando correctamente y el problema se debe exclusivamente a las interacciones inesperadas.
     
@@ -110,7 +110,7 @@
       .row
         .col-auto.d-none.d-md-block(style="place-self:center;" data-aos="fade-right")
           figure
-            img(src="@/assets/curso/tema2/11.svg")
+            img(src="@/assets/curso/tema2/11.svg", alt='Imágen decorativa')
         .col(style="place-self:center;" data-aos="fade-left")
           .p-3.text-white.cont_arrow1(style="background-color:#12263F;")
             p.mb-0 Lamentablemente, si el problema se deriva de una interacción inesperada de sistemas que no fallan, ni siquiera este enfoque funcionará. Se trata de problemas extremadamente difíciles de diagnosticar. Cada problema debe ser tratado como un problema único y especial. Pero, de nuevo, un primer paso importante es la recopilación de información.
