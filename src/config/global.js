@@ -248,12 +248,12 @@ export default {
       autores: [
         {
           nombre: 'Claudia Patricia Aristizabal',
-          cargo: 'Responsable del Ecosistema',
+          cargo: 'Responsable del equipo',
           centro: 'Dirección General',
         },
         {
           nombre: 'Liliana Victoria Morales Guadrón',
-          cargo: 'Responsable Línea de Producción Distrito Capital',
+          cargo: 'Responsable de línea de producción',
           centro:
             'Regional Distrito Capital - Centro de gestión de Mercados, Logística y Tecnologías de la Información',
         },
@@ -311,7 +311,7 @@ export default {
         },
         {
           nombre: 'Laura Gisselle Murcia Pardo',
-          cargo: 'Animación y Producción audiovisual',
+          cargo: 'Animador y Producción audiovisual',
           centro:
             'Regional Distrito Capital - Centro de gestión de Mercados, Logística y Tecnologías de la Información',
         },
