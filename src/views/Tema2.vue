@@ -60,7 +60,7 @@
         figure.col-7.col-md-6.col-lg-12.m-auto
           img(src="@/assets/curso/tema2/6.png", alt='Imágen decorativa')
       .col-lg-8(data-aos="fade-left")
-        p Sin embargo, hay que considerar algunos peligros al reiniciar un sistema. Por ejemplo, es posible hacer inadvertidamente cambios en un sistema para que no pueda reiniciarse. Si se identifica lo que se ha hecho a tiempo, se puede corregir el problema. Pero una vez apagado el sistema, puede ser demasiado tarde. Sin un disco de arranque de respaldo, se tendrá que reconstruir el sistema. Afortunadamente, estas son circunstancias poco frecuentes y suelen ocurrir sólo cuando se han realizado cambios importantes en un sistema.
+        p Sin embargo, hay que considerar algunos peligros al reiniciar un sistema. Por ejemplo, es posible hacer inadvertidamente cambios en un sistema para que no pueda reiniciarse. Si se identifica lo que se ha hecho a tiempo, se puede corregir el problema. Pero una vez apagado el sistema, puede ser demasiado tarde. Sin un disco de arranque de respaldo, se tendrá que reconstruir el sistema. Afortunadamente, estas son circunstancias poco frecuentes y suelen ocurrir solo cuando se han realizado cambios importantes en un sistema.
         .cajon.mt-4.p-4.color-acento-contenido(style="background-color:#E8FFFD;" data-aos="flip-up")
           p.mb-0 Al realizar cambios en un sistema, es importante recordar que el mantenimiento programado puede implicar el reinicio del sistema. Es posible que se quiera probar los cambios efectuados, incluyendo su impacto en un reinicio del sistema, antes de dicho mantenimiento para asegurar que no hay problemas. De lo contrario, el sistema puede fallar cuando se reinicie durante el mantenimiento programado. Si esto ocurre, se enfrentará la difícil tarea de decidir cuál de los diferentes cambios está causando problemas.
     
@@ -73,13 +73,13 @@
       .bloque-texto-g__texto.p-4
         p.mb-0 Intercambiar componentes y reinstalar el #[em software] suele ser lo siguiente que hay que intentar. Con los componentes de repuesto, esto a menudo puede resolver los problemas inmediatamente. Incluso sin repuestos, cambiar los componentes para ver si el problema sigue al equipo puede ser una primera prueba sencilla. Reinstalar el #[em software] puede ser mucho más problemático. A menudo puede dar lugar a errores de configuración que empeoren los problemas. La versión antigua e instalada del #[em software] puede hacer imposible una instalación nueva y limpia. Pero si la instalación es sencilla o se sabe exactamente cómo configurar el #[em software], puede ser una solución relativamente rápida.
     
-    p.mt-5(data-aos="fade-right") Aunque estos enfoques suelen funcionar, no pueden ser considerados como solución de problemas. Agotadas las soluciones rápidas, es hora de entender el problema, si es posible. Los problemas que no se entienden no suelen solucionarse, sólo se posponen.  Las siguientes son algunas recomendaciones de aproximación al análisis de fallas: 
+    p.mt-5(data-aos="fade-right") Aunque estos enfoques suelen funcionar, no pueden ser considerados como solución de problemas. Agotadas las soluciones rápidas, es hora de entender el problema, si es posible. Los problemas que no se entienden no suelen solucionarse, solo se posponen.  Las siguientes son algunas recomendaciones de aproximación al análisis de fallas: 
 
     .row.mt-5
       .col-lg-8.mb-4.mb-lg-0(data-aos="fade-left")
         LineaTiempoD.color-secundario
           p.text-small(numero="1" titulo="Identificar cambios recientes") La mayoría de los problemas están relacionados con cambios en un sistema que funciona. Si se cambian temporalmente las cosas y el problema desaparece, se habrá confirmado el diagnóstico. #[br] Incluso una instalación nueva puede y debe crecer, las piezas se pueden instalar y probar, y añadir nuevas piezas de forma gradual. 
-          p.text-small(numero="2" titulo="Cambiar y probar") Cambiar sólo una cosa a la vez y probar a fondo después de cada cambio. Recomendable en caso de fallos rutinarios, pero no aplica en fallo del sistema.  A menudo es mejor hacer una nota de los cambios adicionales que se han hecho y avanzar con la solución de problemas.
+          p.text-small(numero="2" titulo="Cambiar y probar") Cambiar solo una cosa a la vez y probar a fondo después de cada cambio. Recomendable en caso de fallos rutinarios, pero no aplica en fallo del sistema.  A menudo es mejor hacer una nota de los cambios adicionales que se han hecho y avanzar con la solución de problemas.
           p.text-small(numero="3" titulo="Descomponer el problema") Por lo general, puede centrarse mejor si se divide el problema en partes. Esta técnica, aplicable a todo tipo de soluciones de problemas, es conocida con varios nombres: descomposición del problema, divide y vencerás, búsqueda binaria.
       .col-lg-4(data-aos="fade-right")
         figure.col-7.col-md-6.col-lg-12.m-auto

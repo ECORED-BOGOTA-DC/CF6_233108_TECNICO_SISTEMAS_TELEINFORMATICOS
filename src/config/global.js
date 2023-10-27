@@ -156,13 +156,12 @@ export default {
   glosario: [
     {
       termino: 'AAA',
-      significado:
-        'Universal Serial Bus. Puerto de conexión serial de los computadores.',
+      significado: 'listas de control de acceso.',
     },
     {
       termino: 'CMOS',
       significado:
-        'Complementary Metal-Oxide-Semiconductor. Semiconductor complementario de óxido metálico.',
+        ' Complementary Metal-Oxide-Semiconductor. Semiconductor complementario de óxido metálico.',
     },
     {
       termino: 'CPU',
@@ -170,21 +169,21 @@ export default {
     },
     {
       termino: 'DIMM',
-      significado: 'módulo de memoria dual en línea.',
+      significado: ' módulo de memoria dual en línea.',
     },
     {
       termino: 'ENIAC',
       significado:
-        'Electronic Numerical Integrator and Computer. Primer computador programable a gran escala.',
+        ' Electronic Numerical Integrator and Computer. Primer computador programable a gran escala.',
     },
     {
       termino: 'GNU',
-      significado: 'General Public License. Licencia Pública General de GNU.',
+      significado: ' General Public License. Licencia Pública General de GNU.',
     },
     {
       termino: 'DVI',
       significado:
-        'Digital Video Interface. Puerto de conexión de las pantallas de un computador.',
+        ' Digital Video Interface. Puerto de conexión de las pantallas de un computador.',
     },
     {
       termino: 'LCD',
@@ -193,11 +192,11 @@ export default {
     {
       termino: 'HDMI',
       significado:
-        'High-Definition Multimedia Interface. Puerto de conexión de las pantallas de un computador.',
+        ' High-Definition Multimedia Interface. Puerto de conexión de las pantallas de un computador.',
     },
     {
       termino: 'ITIL',
-      significado: 'Information Technology Infrastructure Library',
+      significado: ' Information Technology Infrastructure Library',
     },
     {
       termino: 'ITSM',
@@ -218,17 +217,18 @@ export default {
     {
       termino: 'VGA',
       significado:
-        'Video Graphics Array. Puerto de conexión de las pantallas de un computador.',
+        ' Video Graphics Array. Puerto de conexión de las pantallas de un computador.',
     },
     {
       termino: 'USB',
-      significado: 'listas de control de acceso.',
+      significado:
+        ' Universal Serial Bus. Puerto de conexión serial de los computadores.',
     },
   ],
   referencias: [
     {
       referencia:
-        'Liu, F., Liu, J., Yin, Y., Wang, W., Hu, D., Chen, P., & Niu, Q. (2020). Survey on WiFi‐based indoor positioning techniques. <em>IET communications</em>, 14(9), 1372-1383.',
+        'Liu, F., Liu, J., Yin, Y., Wang, W., Hu, D., Chen, P., & Niu, Q. (2020). Survey on WiFi-based indoor positioning techniques. <em>IET communications</em>, 14(9), 1372-1383.',
       link: '',
     },
     {
@@ -247,7 +247,7 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Claudia Patricia Aristizabal',
+          nombre: 'Claudia Patricia Aristizábal Gutiérrez',
           cargo: 'Responsable del equipo',
           centro: 'Dirección General',
         },
@@ -270,7 +270,7 @@ export default {
         },
         {
           nombre: 'Maribel Avellaneda Nieves',
-          cargo: 'Diseñadora instruccional',
+          cargo: 'Diseñador instruccional',
           centro:
             'Regional Norte de Santander - Centro de la Industria, la Empresa y los Servicios',
         },

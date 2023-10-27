@@ -16,7 +16,7 @@
       .col-xl-8.col-lg-10.mt-5.m-auto
         .p-2(style="background-color:#4ADBD1;border-radius:15px;" data-aos="fade-right")
           .p-3(style="background-color:#4ADBD1;border-radius:15px;border:2px #fff solid;")
-            p.mb-0 #[strong Estaciones de trabajo:] computadores personales/microcomputadores (computadores de mesa, portátiles, netbooks, handhelds, etc.) donde residen los usuarios.
+            p.mb-0 #[strong Estaciones de trabajo:] computadores personales/microcomputadores (computadores de mesa, portátiles, <i>netbooks, handhelds</i>, etc.) donde residen los usuarios.
     .col-xl-8.col-lg-10.mt-4.m-auto
       .p-2(style="background-color:#F0DCC0;border-radius:15px;" data-aos="fade-left")
         .p-3(style="background-color:#F0DCC0;border-radius:15px;border:2px #fff solid;")
@@ -36,7 +36,7 @@
       .row
         .col-2.d-none.d-lg-block
           figure(data-aos="fade-right")
-            img(src="@/assets/curso/tema1/3.svg" style="max-width:100px;", alt='Imagen que ilustra la conexión entre varias redes, esto es:<br>El usuario A se conecta a través del moden WAN 1 con el Routers donde pasa al WAN 2 y de allí se comunica con la torre que emite la señal, pero desde el WAN 1 también se da señal a través de los Roters y esta al LAN 1 que se comunica con diversos elementos como son portatil, torre de computador de escritorio al Swith que a su vez conecta con el LAN 2 que de igual manera se comunica con otros aparatos utilizados por el usuario.')
+            img(src="@/assets/curso/tema1/3.svg" style="max-width:100px;", alt='Figuar que ilustra la conexión entre varias redes, esto es:<br>El usuario A se conecta a través del moden WAN 1 con el Routers donde pasa al WAN 2 y de allí se comunica con la torre que emite la señal, pero desde el WAN 1 también se da señal a través de los Routers y esta al LAN 1 que se comunica con diversos elementos como son portátil, torre de computador de escritorio al Swith que a su vez conecta con el LAN 2 que de igual manera se comunica con otros aparatos utilizados por el usuario.')
         .col
           figure(data-aos="zoom-in-up")
             img(src="@/assets/curso/tema1/4.svg", alt='Imágen decorativa')
@@ -63,7 +63,7 @@
         p.mt-4 Obsérvese que no existe una conexión directa entre la WAN 1, donde reside el usuario A, y la LAN 2, donde reside el servidor web. Para asegurar que la solicitud de la página web del usuario A llegue a su destinatario (el servidor web), el #[em software] del usuario A adjunta la información de la dirección apropiada que la WAN 1 utiliza para dirigir la solicitud del usuario Al #[em router] que conecta la WAN 1 con la LAN 1. Una vez que la solicitud está en la LAN 1, el dispositivo tipo #[em switch] que conecta la LAN 1 y la LAN 2 utiliza la información de dirección para pasar la solicitud a la LAN 2. La información de dirección adicional entonces dirige la solicitud de la página web del usuario A al servidor web, cuyo #[em software] acepta la solicitud.
     
     .p-4.mt-4.cajon.color-acento-botones(style="background-color:#FFFAD8;" data-aos="zoom-in")
-      p.mb-0 En condiciones normales de tráfico, este procedimiento puede durar sólo una fracción de segundo. Cuando se empieza a comprender todos los pasos que hay que dar y el gran número de transformaciones que debe sufrir una simple petición de página web, el hecho de que sólo se tarde una fracción de segundo en entregarla es sorprendente.
+      p.mb-0 En condiciones normales de tráfico, este procedimiento puede durar solo una fracción de segundo. Cuando se empieza a comprender todos los pasos que hay que dar y el gran número de transformaciones que debe sufrir una simple petición de página web, el hecho de que solo se tarde una fracción de segundo en entregarla es sorprendente.
     
     Separador
 
@@ -75,7 +75,7 @@
         figure
           img(src="@/assets/curso/tema1/9.svg", alt='Imágen decorativa')
       .col(data-aos="fade-left" style="place-self:center;")
-        p.mb-0 El  diseño de red más común hoy en día, el de microcomputador a red de área local, se encuentra prácticamente en todos los entornos empresariales y académicos, incluso en muchos hogares. El microcomputador -conocido comúnmente como computador personal, PC, computador de sobremesa, computador portátil, notebook, netbook o estación de trabajo- comenzó a surgir a finales de los años 70 y principios de los 80. (En aras de la coherencia, utilizaremos el antiguo término "microcomputador" para referirnos a cualquier tipo de computador basado en un microprocesador, una unidad de disco y una memoria). 
+        p.mb-0 El  diseño de red más común hoy en día, el de microcomputador a red de área local, se encuentra prácticamente en todos los entornos empresariales y académicos, incluso en muchos hogares. El microcomputador -conocido comúnmente como computador personal, PC, computador de sobremesa, computador portátil, <i>notebook, netbook</i> o estación de trabajo- comenzó a surgir a finales de los años 70 y principios de los 80. (En aras de la coherencia, utilizaremos el antiguo término "microcomputador" para referirnos a cualquier tipo de computador basado en un microprocesador, una unidad de disco y una memoria). 
     
     .row.mt-5
       .col-lg-7.mb-4.mb-lg-0(data-aos="fade-right")
@@ -95,7 +95,7 @@
             img(src="@/assets/curso/tema1/3.svg" style="max-width:100px;", alt='Imágen decorativa')
         .col
           figure(data-aos="zoom-in-up")
-            img(src="@/assets/curso/tema1/11.svg", alt='Imagen que muestra una conexión a un micro computador, esta se explica de manera detalladas posterior la imagen')
+            img(src="@/assets/curso/tema1/11.svg", alt='Figura que muestra una conexión a un micro computador, esta se explica de manera detalladas posterior a la imagen.')
           figcaption.text-small.fw-normal.mt-4.text-center(style="color:#727997;background-color:transparent;") Nota. Tomada de #[em Data Communication and Computer Networks: A Business User's Approach], por J. West, 2022, Cengage Learning
         .col-auto.d-none.d-lg-block(style="place-self:end;")
           figure(data-aos="fade-left")
@@ -139,7 +139,7 @@
           img(src="@/assets/curso/tema1/14.png", alt='Imágen decorativa')
     
     .cajon.mt-5.p-4.color-acento-contenido(style="background-color:#E8FFFD;" data-aos="flip-up")
-      p.mb-0 Para comunicarse con Internet mediante una conexión telefónica, DSL o de módem por cable, el computador del usuario debe conectarse a otro computador que ya esté comunicando con Internet. La forma más fácil de establecer esta conexión es a través de los servicios de un proveedor de servicios de Internet (ISP). En este caso, el computador del usuario debe tener el #[em software] necesario para comunicarse con la red. Internet "habla" sólo TCP/IP, por lo que los usuarios deben utilizar un #[em software] que soporte los protocolos TCP e IP. Una vez que el computador del usuario habla TCP/IP, se puede establecer una conexión con Internet.  Ver figura a continuación que con un esquema típico de microcomputador a Internet.
+      p.mb-0 Para comunicarse con Internet mediante una conexión telefónica, DSL o de módem por cable, el computador del usuario debe conectarse a otro computador que ya esté comunicando con Internet. La forma más fácil de establecer esta conexión es a través de los servicios de un proveedor de servicios de Internet (ISP). En este caso, el computador del usuario debe tener el #[em software] necesario para comunicarse con la red. Internet "habla" solo TCP/IP, por lo que los usuarios deben utilizar un #[em software] que soporte los protocolos TCP e IP. Una vez que el computador del usuario habla TCP/IP, se puede establecer una conexión con Internet.  Ver figura a continuación que con un esquema típico de microcomputador a Internet.
     
     .col-xl-6.col-lg-8.mt-5.m-auto
       .titulo-sexto.color-acento-botones(data-aos="zoom-in-down")
@@ -152,7 +152,7 @@
             img(src="@/assets/curso/tema1/3.svg" style="max-width:100px;", alt='Imágen decorativa')
         .col
           figure(data-aos="zoom-in-up")
-            img(src="@/assets/curso/tema1/15.svg", alt='Esquema gráfico que muestra la conexión de un microcomputador a internet.')
+            img(src="@/assets/curso/tema1/15.svg", alt='Figura que muestra un esquema gráfico que muestra la conexión de un microcomputador a internet, el cual debe tener un modem, un proveedor de servicio a internet, un router y por supuesto conexión a internet, entre otros aspectos.')
           figcaption.text-small.fw-normal.mt-4.text-center(style="color:#727997;background-color:transparent;") Nota. Tomada de #[em Data Communication and Computer Networks: A Business User's Approach], por J. West, 2022, Cengage Learning
         .col-auto.d-none.d-lg-block(style="place-self:end;")
           figure(data-aos="fade-left")
@@ -180,7 +180,7 @@
             img(src="@/assets/curso/tema1/3.svg" style="max-width:100px;", alt='Imágen decorativa')
         .col
           figure(data-aos="zoom-in-up")
-            img(src="@/assets/curso/tema1/17.svg", alt='Imagen que ilustra la estructura de la conexión de dos LAN, esto es: el LAN A donde desde la torre pantalla de un computador de escritorio ingresan al Hub, luego al Switch, luego nuevamente a un Hub y de este nuevamente a torres y pantallas del LAN B.')
+            img(src="@/assets/curso/tema1/17.svg", alt='Figura que ilustra la estructura de la conexión de dos LAN, esto es: el LAN A donde desde la torre pantalla de un computador de escritorio ingresan al Hub, luego al Switch, luego nuevamente a un Hub y de este nuevamente a torres y pantallas del LAN B.')
           figcaption.text-small.fw-normal.mt-4.text-center(style="color:#727997;background-color:transparent;") Nota. Tomada de #[em Data Communication and Computer Networks: A Business User's Approach], por J. West, 2022, Cengage Learning
         .col-auto.d-none.d-lg-block(style="place-self:end;")
           figure(data-aos="fade-left")
@@ -201,7 +201,7 @@
           h5 Figura 5.
           span Transferencia de datos a través de una conexión inalámbrica
         figure(data-aos="zoom-in-up")
-          img(src="@/assets/curso/tema1/19.svg", alt='Imagen que ilustra a un usuario con una conexión inhalambrica que emite una señal a la torre local de trabajo de su computador.')
+          img(src="@/assets/curso/tema1/19.svg", alt='Figura que ilustra a un usuario con una conexión inalámbrica que emite una señal a la torre local de trabajo de su computador.')
         figcaption.text-small.fw-normal.mt-4.text-center(style="color:#727997;background-color:transparent;") Nota. Tomada de #[em Data Communication and Computer Networks: A Business User's Approach], por J. West, 2022, Cengage Learning
     
     h4.mt-5.mb-4.p-3.pe-5.mb-0(data-aos="zoom-in" style="background-color:#4ADBD1;max-width:fit-content;border-radius:0px 25px 0px 0px;") Trazados de redes de área local a área metropolitana
@@ -219,7 +219,7 @@
             img(src="@/assets/curso/tema1/3.svg" style="max-width:100px;", alt='Imágen decorativa')
         .col
           figure(data-aos="zoom-in-up")
-            img(src="@/assets/curso/tema1/20.svg", alt='La imagen muestra estación de trabajo de microcomputador conectada a una red de área local debe conectarse primero a un dispositivo como un conmutador, dispositivo que conecta múltiples estaciones de trabajo y pasa la señal de transmisión de cualquier estación de trabajo a otras estaciones de trabajo.')
+            img(src="@/assets/curso/tema1/20.svg", alt='Figura que representa las empresas que necesitan una conexión de alta velocidad con sus proveedores de servicios de Internet, donde pueden utilizar una red de área metropolitana para la interconexión.')
           figcaption.text-small.fw-normal.mt-4.text-center(style="color:#727997;background-color:transparent;") Nota. Tomada de #[em Data Communication and Computer Networks: A Business User's Approach], por J. West, 2022, Cengage Learning
         .col-auto.d-none.d-lg-block(style="place-self:end;")
           figure(data-aos="fade-left")
@@ -235,7 +235,7 @@
           h5 Figura 7.
           span Red WAN
         figure(data-aos="zoom-in-up")
-          img(src="@/assets/curso/tema1/21.svg", alt='Imagen que muestra un servicio de datos bidireccional que requiere instalación de una antena parabólica de estación terrestre para cada una de las sedes corporativas.')
+          img(src="@/assets/curso/tema1/21.svg", alt='Figura que representan una red WAM, mostrando una red de área local conectada a una red de área amplia a través de un router.')
         figcaption.text-small.fw-normal.mt-4.text-center(style="color:#727997;background-color:transparent;") Nota. Tomada de #[em Data Communication and Computer Networks: A Business User's Approach], por J. West, 2022, Cengage Learning
     
     h4.mt-5.mb-4.p-3.pe-5.mb-0(data-aos="zoom-in" style="background-color:#4ADBD1;max-width:fit-content;border-radius:0px 25px 0px 0px;") Disposición de la red de área amplia a la red de área amplia
@@ -254,7 +254,7 @@
 
     .row
       .col-lg-8.mb-4.mb-lg-0(data-aos="fade-right" style="place-self:center;")
-        p Otra disposición habitual en la vida cotidiana es la de sensor a red de área local. En este tipo de disposición, la acción de una persona u objeto activa un sensor -por ejemplo, un semáforo de giro a la izquierda en un cruce que está conectado a una red. En muchos carriles de giro a la izquierda, un semáforo de giro a la izquierda aparecerá si y sólo si uno o más vehículos están en el carril de giro a la izquierda. Un sensor incrustado en la calzada detecta el movimiento de un automóvil en el carril superior y activa el mecanismo de giro a la izquierda en la caja de control de señales de tráfico al lado de la carretera. Si esta caja de control de señales de tráfico está conectada a un sistema de control de tráfico mayor, el sensor se conecta a una red de área local.
+        p Otra disposición habitual en la vida cotidiana es la de sensor a red de área local. En este tipo de disposición, la acción de una persona u objeto activa un sensor -por ejemplo, un semáforo de giro a la izquierda en un cruce que está conectado a una red. En muchos carriles de giro a la izquierda, un semáforo de giro a la izquierda aparecerá si y solo si uno o más vehículos están en el carril de giro a la izquierda. Un sensor incrustado en la calzada detecta el movimiento de un automóvil en el carril superior y activa el mecanismo de giro a la izquierda en la caja de control de señales de tráfico al lado de la carretera. Si esta caja de control de señales de tráfico está conectada a un sistema de control de tráfico mayor, el sensor se conecta a una red de área local.
         .p-4.mt-4.cajon.color-acento-botones(style="background-color:#FFFAD8;" data-aos="zoom-in")
           p.mb-0 Otro ejemplo de disposición de sensores a redes de área local se encuentra en los entornos de fabricación. Las líneas de ensamblaje, los dispositivos de control robótico, los controles de temperatura de los hornos y los equipos de análisis químico utilizan a menudo sensores conectados a computadores de recogida de datos que controlan los movimientos y las operaciones, hacen sonar las alarmas y calculan los resultados experimentales o de control de calidad. La siguiente figura muestra un diagrama de la disposición típica de una red de sensores a área local en un entorno de fabricación.
       .col-lg-4(data-aos="fade-left" style="place-self:center;")
@@ -272,7 +272,7 @@
             img(src="@/assets/curso/tema1/3.svg" style="max-width:100px;", alt='Imágen decorativa')
         .col
           figure(data-aos="zoom-in-up")
-            img(src="@/assets/curso/tema1/25.svg", alt='Imágen decorativa')
+            img(src="@/assets/curso/tema1/25.svg", alt='Figura que representan una red de sensores, la cual muestra la disposición típica de una red de sensores a área local en un entorno de fabricación.')
           figcaption.text-small.fw-normal.mt-4.text-center(style="color:#727997;background-color:transparent;") Nota. Tomada de #[em Data Communication and Computer Networks: A Business User's Approach], por J. West, 2022, Cengage Learning
         .col-auto.d-none.d-lg-block(style="place-self:end;")
           figure(data-aos="fade-left")
@@ -288,7 +288,7 @@
           h5 Figura 9.
           span Red satelital de TV
         figure(data-aos="zoom-in-up")
-          img(src="@/assets/curso/tema1/26.svg", alt='Imágen decorativa')
+          img(src="@/assets/curso/tema1/26.svg", alt='Figura que representan una red satelital de TV, la cual muestra un sistema de satélite típico.')
         figcaption.text-small.fw-normal.mt-4.text-center(style="color:#727997;background-color:transparent;") Nota. Tomada de #[em Data Communication and Computer Networks: A Business User's Approach], por J. West, 2022, Cengage Learning
     
     h4.mt-5.mb-4.p-3.pe-5.mb-0(data-aos="zoom-in" style="background-color:#4ADBD1;max-width:fit-content;border-radius:0px 25px 0px 0px;") Diseños de redes móviles
@@ -306,7 +306,7 @@
             img(src="@/assets/curso/tema1/3.svg" style="max-width:100px;", alt='Imágen decorativa')
         .col
           figure(data-aos="zoom-in-up")
-            img(src="@/assets/curso/tema1/27.svg", alt='Imágen decorativa')
+            img(src="@/assets/curso/tema1/27.svg", alt='Figura que representan una red satelital de TV, la cual muestra un un ejemplo de una PDA de mano que, además de hacer llamadas telefónicas, puede transmitir y recibir datos.')
           figcaption.text-small.fw-normal.mt-4.text-center(style="color:#727997;background-color:transparent;") Nota. Tomada de #[em Data Communication and Computer Networks: A Business User's Approach], por J. West, 2022, Cengage Learning
         .col-auto.d-none.d-lg-block(style="place-self:end;")
           figure(data-aos="fade-left")
@@ -335,7 +335,7 @@
         .p-4.mt-4.cajon.color-acento-botones(style="background-color:#FFFAD8;" data-aos="zoom-in")
           p.mb-0 A diferencia de los infrarrojos, #[em Bluetooth] es capaz de transmitir a través de objetos no metálicos. Así, un dispositivo que transmite señales #[em Bluetooth] puede llevarse en un bolsillo, un bolso o un maletín. Además, con #[em Bluetooth] es posible transferir datos a velocidades razonablemente altas. El primer estándar #[em Bluetooth] era capaz de transferir datos a una velocidad de aproximadamente 700 kbps. El segundo estándar aumentó la velocidad de datos a algo más de 2 Mbps.
     
-    p.mt-5(data-aos="fade-right") #[em Bluetooth] también puede comunicar entre varios dispositivos. Por ejemplo, en un entorno de oficina con muchos computadores, impresoras, faxes y fotocopiadoras, con #[em Bluetooth], cada dispositivo puede enviar señales a otros dispositivos o a un único punto, por ejemplo, para indicar instrucciones de servicio como "no hay papel" o "hay poco tóner". Una red pequeña como ésta, con ocho o menos dispositivos, se llama piconet. Se pueden interconectar varias piconets para formar una scatternet.
+    p.mt-5(data-aos="fade-right") #[em Bluetooth] también puede comunicar entre varios dispositivos. Por ejemplo, en un entorno de oficina con muchos computadores, impresoras, faxes y fotocopiadoras, con #[em Bluetooth], cada dispositivo puede enviar señales a otros dispositivos o a un único punto, por ejemplo, para indicar instrucciones de servicio como "no hay papel" o "hay poco tóner". Una red pequeña como ésta, con ocho o menos dispositivos, se llama piconet. Se pueden interconectar varias piconets para formar una <i>scatternet</i>.
     p.mt-4(data-aos="fade-left") El aspecto más interesante de #[em Bluetooth] es la lista de aplicaciones que se benefician de esta tecnología de transmisión de corto alcance. Entre estas aplicaciones se encuentran:
 
     .row.mt-5
@@ -460,7 +460,7 @@
           h5 Figura 11.
           span Cableado con una estación de trabajo y una red de área local
         figure(data-aos="zoom-in-up")
-          img(src="@/assets/curso/tema1/46.svg", alt='Imágen decorativa')
+          img(src="@/assets/curso/tema1/46.svg", alt='Figura que muestra una estación de trabajo de microcomputador conectada a una red de área local debe conectarse primero a un dispositivo como un conmutador, dispositivo que conecta múltiples estaciones de trabajo y pasa la señal de transmisión de cualquier estación de trabajo a otras estaciones de trabajo.')
         figcaption.text-small.fw-normal.mt-4.text-center(style="color:#727997;background-color:transparent;") Nota. Tomada de #[em Data Communication and Computer Networks: A Business User's Approach], por J. West, 2022, Cengage Learning
     
     p.mt-5.fw-bold.text-center(data-aos="zoom-in") Al seleccionar el medio apropiado para la conexión, dos aspectos cruciales deben considerarse:
@@ -575,7 +575,7 @@
           :style="{'background-image': `url(${require('@/assets/curso/tema1/57.png')})`}"
         )
         .bloque-texto-g__texto.p-4(style="background-color:#F8F8F8;border-radius:30px 0px 30px;")
-          p.mb-0 Una con un par de computadores, cada uno en una habitación diferente. Cada computador tiene una impresora de chorro de tinta bastante barata y sólo uno de ellos tiene acceso a Internet. Se desea conectar ambos computadores a la red y comprar una buena impresora láser para que la compartan ambos equipos. Para ello, se tendrán que interconectar los computadores, pero tirar cables por las paredes y el suelo no parece una opción atractiva. ¿Y qué hay de la conexión inalámbrica? Se puede comprar tarjetas de interfaz de red inalámbrica que utilicen uno de los protocolos IEEE 802.11 y crear una red de área local sin cables. 
+          p.mb-0 Una con un par de computadores, cada uno en una habitación diferente. Cada computador tiene una impresora de chorro de tinta bastante barata y solo uno de ellos tiene acceso a Internet. Se desea conectar ambos computadores a la red y comprar una buena impresora láser para que la compartan ambos equipos. Para ello, se tendrán que interconectar los computadores, pero tirar cables por las paredes y el suelo no parece una opción atractiva. ¿Y qué hay de la conexión inalámbrica? Se puede comprar tarjetas de interfaz de red inalámbrica que utilicen uno de los protocolos IEEE 802.11 y crear una red de área local sin cables. 
     
     h4.mt-5.mb-4.p-3.pe-5.mb-0(data-aos="zoom-in" style="background-color:#4ADBD1;max-width:fit-content;border-radius:0px 25px 0px 0px;") Red de área local sin cables
 
@@ -613,7 +613,7 @@
           h5 Figura 12.
           span Solución satelital VSAT para DataMining
         figure(data-aos="zoom-in-up")
-          img(src="@/assets/curso/tema1/60.svg", alt='Imágen decorativa')
+          img(src="@/assets/curso/tema1/60.svg", alt='Figura que muestra un servicio de datos bidireccional que requiere instalación de una antena parabólica de estación terrestre para cada una de las sedes corporativas.')
         figcaption.text-small.fw-normal.mt-4.text-center(style="color:#727997;background-color:transparent;") Nota. Tomada de #[em Data Communication and Computer Networks: A Business User's Approach], por J. West, 2022, Cengage Learning
     
     p.mt-5(data-aos="fade-right") Cada estación terrestre se compone de dos piezas: una unidad interior y una unidad exterior. La unidad exterior consiste en la antena parabólica y suele montarse en el tejado del edificio. El tamaño de la antena parabólica depende de la velocidad de transmisión de datos que se utilice y de la cobertura del satélite que se necesite. La unidad exterior está conectada a la unidad interior a través de un único cable de interconexión. La unidad interior dispone de uno o varios puertos a los que se pueden conectar los equipos informáticos de la empresa.
@@ -651,7 +651,7 @@
             img(src="@/assets/curso/tema1/3.svg" style="max-width:100px;", alt='Imágen decorativa')
         .col
           figure(data-aos="zoom-in-up")
-            img(src="@/assets/curso/tema1/64.svg", alt='Imágen decorativa')
+            img(src="@/assets/curso/tema1/64.svg", alt='Figura que muestra una configuración típica de comunicación por microondas.')
           figcaption.text-small.fw-normal.mt-4.text-center(style="color:#727997;background-color:transparent;") Nota. Tomada de #[em Data Communication and Computer Networks: A Business User's Approach], por J. West, 2022, Cengage Learning
         .col-auto.d-none.d-lg-block(style="place-self:end;")
           figure(data-aos="fade-left")
@@ -670,7 +670,7 @@
                div(style="max-width:fit-content;border-radius:100px;padding:1rem 1.1rem;background-color:#5573C6;margin-left:-30px;")
                 i.fas.fa-check.text-white(style="font-size:25px;")
             .col(style="place-self:center;")
-              p.mb-0 #[strong Coste:] el sistema ProNet es caro al principio, cuando se adquiere el equipo, pero después American sólo tiene que pagar el mantenimiento.
+              p.mb-0 #[strong Coste:] el sistema ProNet es caro al principio, cuando se adquiere el equipo, pero después American solo tiene que pagar el mantenimiento.
           .row.m-0.p-4.ps-0(style="background-color:#E6F3FF;" data-aos="zoom-in-up")
             .col-auto.ps-0(style="place-self:center;")
                div(style="max-width:fit-content;border-radius:100px;padding:1rem 1.1rem;background-color:#4ADBD1;margin-left:-30px;")
