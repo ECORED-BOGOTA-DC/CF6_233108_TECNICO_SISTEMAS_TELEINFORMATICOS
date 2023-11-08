@@ -36,10 +36,10 @@
       .row
         .col-2.d-none.d-lg-block
           figure(data-aos="fade-right")
-            img(src="@/assets/curso/tema1/3.svg" style="max-width:100px;", alt='Figura que ilustra la conexión entre varias redes, esto es: El usuario A se conecta a través del módem WAN 1 con el Routers donde pasa al WAN 2 y de allí se comunica con la torre que emite la señal, pero desde el WAN 1 también se da señal a través de los Routers y esta al LAN 1 que se comunica con diversos elementos como son portátil, torre de computador de escritorio al switch que a su vez conecta con el LAN 2 que de igual manera se comunica con otros aparatos utilizados por el usuario.')
+            img(src="@/assets/curso/tema1/3.svg" style="max-width:100px;", alt='Imágen decorativa')
         .col
           figure(data-aos="zoom-in-up")
-            img(src="@/assets/curso/tema1/4.svg", alt='Figura que ilustra la conexión entre varias redes, esto es: El usuario A se conecta a través del moden WAN 1 con el Routers donde pasa al WAN 2 y de allí se comunica con la torre que emite la señal, pero desde el WAN 1 también se da señal a través de los Routers y esta al LAN 1 que se comunica con diversos elementos como son portátil, torre de computador de escritorio al Swith que a su vez conecta con el LAN 2 que de igual manera se comunica con otros aparatos utilizados por el usuario.')
+            img(src="@/assets/curso/tema1/4.svg", alt='Figura que ilustra la conexión entre varias redes, esto es: El usuario A se conecta a través del módem WAN 1 con el Routers donde pasa al WAN 2 y de allí se comunica con la torre que emite la señal, pero desde el WAN 1 también se da señal a través de los Routers y esta al LAN 1 que se comunica con diversos elementos como son portátil, torre de computador de escritorio al switch que a su vez conecta con el LAN 2 que de igual manera se comunica con otros aparatos utilizados por el usuario.')
           figcaption.text-small.fw-normal.mt-4.text-center(style="color:#727997;background-color:transparent;") Nota. Tomada de #[em Data Communication and Computer Networks: A Business User's Approach], por J. West, 2022, Cengage Learning
         .col-auto.d-none.d-lg-block(style="place-self:end;")
           figure(data-aos="fade-left")
