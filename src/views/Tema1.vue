@@ -36,7 +36,7 @@
       .row
         .col-2.d-none.d-lg-block
           figure(data-aos="fade-right")
-            img(src="@/assets/curso/tema1/3.svg" style="max-width:100px;", alt='Figuar que ilustra la conexión entre varias redes, esto es:<br>El usuario A se conecta a través del moden WAN 1 con el Routers donde pasa al WAN 2 y de allí se comunica con la torre que emite la señal, pero desde el WAN 1 también se da señal a través de los Routers y esta al LAN 1 que se comunica con diversos elementos como son portátil, torre de computador de escritorio al Swith que a su vez conecta con el LAN 2 que de igual manera se comunica con otros aparatos utilizados por el usuario.')
+            img(src="@/assets/curso/tema1/3.svg" style="max-width:100px;", alt='Figuar que ilustra la conexión entre varias redes, esto es:<br>El usuario A se conecta a través del modem WAN 1 con el Routers donde pasa al WAN 2 y de allí se comunica con la torre que emite la señal, pero desde el WAN 1 también se da señal a través de los Routers y esta al LAN 1 que se comunica con diversos elementos como son portátil, torre de computador de escritorio al switch que a su vez conecta con el LAN 2 que de igual manera se comunica con otros aparatos utilizados por el usuario.')
         .col
           figure(data-aos="zoom-in-up")
             img(src="@/assets/curso/tema1/4.svg", alt='Figura que ilustra la conexión entre varias redes, esto es: El usuario A se conecta a través del moden WAN 1 con el Routers donde pasa al WAN 2 y de allí se comunica con la torre que emite la señal, pero desde el WAN 1 también se da señal a través de los Routers y esta al LAN 1 que se comunica con diversos elementos como son portátil, torre de computador de escritorio al Swith que a su vez conecta con el LAN 2 que de igual manera se comunica con otros aparatos utilizados por el usuario.')
@@ -95,7 +95,7 @@
             img(src="@/assets/curso/tema1/3.svg" style="max-width:100px;", alt='Imágen decorativa')
         .col
           figure(data-aos="zoom-in-up")
-            img(src="@/assets/curso/tema1/11.svg", alt='Figura que muestra una conexión a un micro computador, esta se explica de manera detalladas posterior a la imagen.')
+            img(src="@/assets/curso/tema1/11.svg", alt='Figura que muestra una conexión a un micro computador, esta se explica de manera detallada posterior a la imagen.')
           figcaption.text-small.fw-normal.mt-4.text-center(style="color:#727997;background-color:transparent;") Nota. Tomada de #[em Data Communication and Computer Networks: A Business User's Approach], por J. West, 2022, Cengage Learning
         .col-auto.d-none.d-lg-block(style="place-self:end;")
           figure(data-aos="fade-left")
@@ -162,9 +162,9 @@
 
     .row
       .col-lg-8.mb-4.mb-lg-0(data-aos="fade-right" style="place-self:center;")
-        p Dado que la red de área local es un estándar en los entornos empresariales y académicos, no debería sorprender que muchas organizaciones necesiten los servicios de varias redes de área local y que sea necesario que estas LAN se comuniquen entre sí. Por ejemplo, una empresa puede querer que la red de área local que soporta su departamento de investigación comparta una costosa impresora láser en color con la red de área local de su departamento de marketing. Afortunadamente, es posible conectar dos redes de área local para que puedan compartir periféricos y #[em software]. Los dispositivos que suelen conectar dos o más redes de área local son el conmutador y el #[em router].
+        p Dado que la red de área local es un estándar en los entornos empresariales y académicos, no debería sorprender que muchas organizaciones necesiten los servicios de varias redes de área local y que sea necesario que estas LAN se comuniquen entre sí. Por ejemplo, una empresa puede querer que la red de área local que soporta su departamento de investigación comparta una costosa impresora láser en color con la red de área local de su departamento de <i>marketing</i>. Afortunadamente, es posible conectar dos redes de área local para que puedan compartir periféricos y #[em software]. Los dispositivos que suelen conectar dos o más redes de área local son el conmutador y el #[em router].
         .p-4.mt-4.cajon.color-acento-botones(style="background-color:#FFFAD8;" data-aos="zoom-in")
-          p.mb-0 En algunos casos, puede ser más importante evitar que los datos fluyan entre las redes de área local que permitir que los datos fluyan de una red a otra. Por ejemplo, algunas empresas tienen razones políticas para soportar múltiples redes: cada división puede querer que su propia red funcione como quiera. Además, puede haber razones de seguridad para limitar el flujo de tráfico entre redes; o permitir que los datos destinados a una red concreta atraviesen otras redes simplemente puede generar demasiado tráfico de red. Los dispositivos que conectan las redes de área local también pueden ayudar a gestionar este tipo de servicios. Por ejemplo, el conmutador puede filtrar el tráfico no destinado a la red vecina, minimizando así la cantidad total de flujo de tráfico. La siguiente figura muestra un ejemplo de dos LAN conectadas por un switch.
+          p.mb-0 En algunos casos, puede ser más importante evitar que los datos fluyan entre las redes de área local que permitir que los datos fluyan de una red a otra. Por ejemplo, algunas empresas tienen razones políticas para soportar múltiples redes: cada división puede querer que su propia red funcione como quiera. Además, puede haber razones de seguridad para limitar el flujo de tráfico entre redes; o permitir que los datos destinados a una red concreta atraviesen otras redes simplemente puede generar demasiado tráfico de red. Los dispositivos que conectan las redes de área local también pueden ayudar a gestionar este tipo de servicios. Por ejemplo, el conmutador puede filtrar el tráfico no destinado a la red vecina, minimizando así la cantidad total de flujo de tráfico. La siguiente figura muestra un ejemplo de dos LAN conectadas por un <i>switch</i>.
       .col-lg-4(data-aos="fade-left" style="place-self:center;")
         figure.m-auto.col-7.col-lg-12.col-md-6
           img(src="@/assets/curso/tema1/16.png", alt='Imágen decorativa')
@@ -306,7 +306,7 @@
             img(src="@/assets/curso/tema1/3.svg" style="max-width:100px;", alt='Imágen decorativa')
         .col
           figure(data-aos="zoom-in-up")
-            img(src="@/assets/curso/tema1/27.svg", alt='Figura que representan una red satelital de TV, la cual muestra un un ejemplo de una PDA de mano que, además de hacer llamadas telefónicas, puede transmitir y recibir datos.')
+            img(src="@/assets/curso/tema1/27.svg", alt='Figura que representan una red satelital de TV, la cual muestra un ejemplo de una PDA de mano que, además de hacer llamadas telefónicas, puede transmitir y recibir datos.')
           figcaption.text-small.fw-normal.mt-4.text-center(style="color:#727997;background-color:transparent;") Nota. Tomada de #[em Data Communication and Computer Networks: A Business User's Approach], por J. West, 2022, Cengage Learning
         .col-auto.d-none.d-lg-block(style="place-self:end;")
           figure(data-aos="fade-left")
@@ -688,7 +688,7 @@
                div(style="max-width:fit-content;border-radius:100px;padding:1rem 1.1rem;background-color:#4ADBD1;margin-left:-30px;")
                 i.fas.fa-check(style="font-size:25px;")
             .col(style="place-self:center;")
-              p.mb-0 #[strong Entorno:] los sistemas de microondas pueden verse afectados por fuerzas electromagnéticas intensas y por las inclemencias del tiempo. Sin embargo, ProNet afirma que su sistema no se ve afectado por la niebla o la nieve, y que ofrece una fiabilidad y disponibilidad del servicio del 99,97%
+              p.mb-0 #[strong Entorno:] los sistemas de microondas pueden verse afectados por fuerzas electromagnéticas intensas y por las inclemencias del tiempo. Sin embargo, ProNet afirma que su sistema no se ve afectado por la niebla o la nieve, y que ofrece una fiabilidad y disponibilidad del servicio del 99,97 %
           .row.m-0.p-4.ps-0(style="background-color:#F2F9FF;border-radius:0px 0px 25px 25px;" data-aos="zoom-in-up")
             .col-auto.ps-0(style="place-self:center;")
                div(style="max-width:fit-content;border-radius:100px;padding:1rem 1.1rem;background-color:#5573C6;margin-left:-30px;")

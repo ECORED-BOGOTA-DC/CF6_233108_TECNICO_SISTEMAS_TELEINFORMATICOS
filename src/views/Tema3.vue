@@ -47,7 +47,7 @@
         div #[strong Una segunda característica] que distingue a las MAN de las LAN (pero no necesariamente de las WAN) es que la mayoría de las MAN pueden recuperarse muy rápidamente de un fallo de enlace o de conmutador/enrutador. Las MAN están diseñadas con circuitos altamente redundantes para que, en caso de fallo de un componente, la red pueda redirigir rápidamente el tráfico fuera del componente que ha fallado. Esta capacidad de redireccionamiento en caso de fallo se denomina <i>failover</i>, y la velocidad a la que se realiza el <i>failover</i> es el tiempo de <i>failover</i>. Aunque no todas las MAN tienen tiempos de conmutación por error bajos, conseguirlos es sin duda el objetivo de cualquier empresa que ofrezca un servicio MAN.
       li.d-flex
         i.fas.fa-check-circle(style="color:#4ADBD1;")
-        div #[strong Una tercera característica] que distingue a muchas MAN de las LAN y las WAN es que algunas topologías MAN se basan en un anillo. La MAN en anillo es única porque es un anillo tanto lógica como físicamente. Así, no solo se transmiten los datos en forma de anillo, sino que también los #[em routers] y switches de la red están interconectados en forma de anillo (Figura 14).
+        div #[strong Una tercera característica] que distingue a muchas MAN de las LAN y las WAN es que algunas topologías MAN se basan en un anillo. La MAN en anillo es única porque es un anillo tanto lógica como físicamente. Así, no solo se transmiten los datos en forma de anillo, sino que también los #[em routers] y <i>switches</i> de la red están interconectados en forma de anillo (Figura 14).
     
           .col-xl-6.col-lg-8.mt-5.m-auto
             .titulo-sexto.color-acento-botones(data-aos="zoom-in-down")
@@ -145,9 +145,9 @@
         .col-xl-6
           .titulo-sexto.color-acento-botones(data-aos="zoom-in-up")
             h5 Figura 18.
-            span Conexión multi puntos
+            span Conexión multipuntos
           figure(data-aos="zoom-in-up")
-            img(src="@/assets/curso/tema3/12.svg", alt='Figura que muestra una conexión entre multi puntos, indicando que puede conectarse a varias compañías como si todas ellas formaran parte de una gran red de área local.')
+            img(src="@/assets/curso/tema3/12.svg", alt='Figura que muestra una conexión entre multipuntos, indicando que puede conectarse a varias compañías como si todas ellas formaran parte de una gran red de área local.')
       figcaption.text-small.fw-normal.mt-4.text-center(style="color:#727997;background-color:transparent;") Nota. Tomada de #[em Data Communication and Computer Networks: A Business User's Approach], por J. West, 2022, Cengage Learning
     
     p.mt-5(data-aos="fade-right") Un aspecto interesante de Metro Ethernet es que los usuarios del servicio pueden conectar sin problemas las redes de área local Ethernet de su empresa al servicio Metro Ethernet. Dado que todas las redes implicadas son Ethernet, no es necesario realizar conversiones de un formato a otro que requieren mucho tiempo y a veces son torpes. Así, una LAN corporativa que funciona a 100 Mbps puede conectarse sin problemas a un servicio Metro Ethernet que también funciona a 100 Mbps. No se puede decir lo mismo si se conecta una LAN de 100 Mbps a SONET, con velocidades que suelen empezar en 51,48 Mbps.
